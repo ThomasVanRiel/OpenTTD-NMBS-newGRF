@@ -1,0 +1,77 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*	This file is used to set the sort order in the vehicle purchase window.
+ *	It starts with #defining the partial lists per vehicle type.
+ *	These partial lists are then combined to the sort-list.
+ *	This way future extensions based on parameters can easily be included.
+*/
+ 
+#define SORTING_RBS 
+
+#define SORTING_RBD
+
+#define SORTING_RBE 
+
+#define SORTING_STEAM \
+item_steam_NMBS_Type_12, /*Year: 1939*/ 
+
+
+#define SORTING_DIESEL \
+item_diesel_NMBS_HLD_62, /*Year: 1961*/\
+item_diesel_NMBS_HLD_77, /*Year: 1999*/ 
+
+#define SORTING_ELECTRIC \
+item_electric_NMBS_HLE_27, /*Year: 1981*/\
+item_electric_NMBS_HLE_28, /*Year: 2007*/ 
+
+#define SORTING_DMU \
+item_dmu_NMBS_MS_41, /*Year: 2000*/ 
+
+#define SORTING_CARGODMU 
+
+#define SORTING_EMU \
+item_emu_NMBS_MS_96, /*Year: 1996*/\
+item_emu_NMBS_MS_Classic, /*Year: 1939*/
+
+#define SORTING_SINGLE_METRO 
+
+#define SORTING_METRO 
+
+#define SORTING_SINGLE_MAGLEV 
+
+#define SORTING_MAGLEV 
+
+#define SORTING_COACHES \
+item_coach_NMBS_I10_PASS, /*Year: 1987*/\
+item_coach_NMBS_I10_MAIL, /*Year: 1987*/
+
+#define SORTING_WAGONS 
+
+#define SORTING_SPECIAL \
+item_mu_wagon_unpowered, \
+item_mu_wagon_powered,
+
+sort(FEAT_TRAINS, [
+	SORTING_RBS
+	SORTING_RBD
+	SORTING_RBE
+	SORTING_STEAM 
+	SORTING_DIESEL
+	SORTING_ELECTRIC
+	SORTING_DMU
+	SORTING_CARGODMU
+	SORTING_EMU
+	SORTING_SINGLE_METRO
+	SORTING_METRO
+	SORTING_SINGLE_MAGLEV
+	SORTING_MAGLEV
+	SORTING_SPECIAL
+	SORTING_COACHES
+	SORTING_WAGONS
+]);

@@ -1,0 +1,148 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* GRF HEADER
+*/
+
+//Region file, defines are used in header, so this file is included before that
+#include "src/regions.pnml"
+//define grf
+#include "src/header.pnml"
+//check for valid settings
+#include "src/checks.pnml"
+//include sprite templates
+#include "src/templates.pnml"
+//cargo translation table
+#include "src/cargotable.pnml"
+//cargo refit definitions
+#include "src/cargorefits.pnml"
+//loading speeds
+#include "src/loadingspeeds.pnml"
+//railtype translation table
+#include "src/railtypetable.pnml"
+//give unique IDs to vehicles
+#include "src/vehicleID.pnml"
+//Can attach vehcile
+#include "src/wagon_attach.pnml"
+//Default properties that are for all vehicles
+#include "src/_CodeSupport/default_properties.pnml"
+//Costs
+#include "src/costs.pnml"
+//Capacities
+#include "src/capacities.pnml"
+//Purchase text switch
+#include "src/purchasetext.pnml"
+// MU wagon calculations
+#include "src/_CodeSupport/muwagoncalculations.pnml"
+// Cleanup
+#include "src/undefine_properties.pnml"
+
+
+/*
+* VEHICLES
+*/
+
+//Unit wagons
+#include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
+#include "src/Special/MU_Wagon_Unpowered_property.pnml"
+#include "src/Special/MU_Wagon_Unpowered_graphics.pnml"
+#include "src/Special/MU_Wagon_Unpowered_item.pnml"
+#include "src/Special/MU_Wagon_Powered_property.pnml"
+#include "src/Special/MU_Wagon_Powered_graphics.pnml"
+#include "src/Special/MU_Wagon_Powered_item.pnml"
+
+#include "src/_CodeSupport/TypeInitialization/init_type_Metro.pnml"
+
+#include "src/_CodeSupport/TypeInitialization/init_type_Maglev.pnml"
+
+
+//Railbus-steam
+#include "src/_CodeSupport/TypeInitialization/init_type_RBS.pnml"
+
+//Railbus-diesel
+#include "src/_CodeSupport/TypeInitialization/init_type_RBD.pnml"
+
+
+//Railbus-electric
+#include "src/_CodeSupport/TypeInitialization/init_type_RBE.pnml"
+
+
+//Steam
+#include "src/_CodeSupport/TypeInitialization/init_type_Steam.pnml"
+#include "src/Steam/NMBS_Type_12_property.pnml"
+#include "src/Steam/NMBS_Type_12_graphics.pnml"
+#include "src/Steam/NMBS_Type_12_item.pnml"
+
+//Diesel
+#include "src/_CodeSupport/TypeInitialization/init_type_Diesel.pnml"
+#include "src/Diesel/NMBS_HLD_77_property.pnml"
+#include "src/Diesel/NMBS_HLD_77_graphics.pnml"
+#include "src/Diesel/NMBS_HLD_77_item.pnml"
+#include "src/Diesel/NMBS_HLD_62_property.pnml"
+#include "src/Diesel/NMBS_HLD_62_graphics.pnml"
+#include "src/Diesel/NMBS_HLD_62_item.pnml"
+
+//Electric
+#include "src/_CodeSupport/TypeInitialization/init_type_Electric.pnml"
+#include "src/Electric/NMBS_HLE_27_property.pnml"
+#include "src/Electric/NMBS_HLE_27_graphics.pnml"
+#include "src/Electric/NMBS_HLE_27_item.pnml"
+#include "src/Electric/NMBS_HLE_28_property.pnml"
+#include "src/Electric/NMBS_HLE_28_graphics.pnml"
+#include "src/Electric/NMBS_HLE_28_item.pnml"
+
+//DMU
+#include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
+#include "src/DMU/NMBS_MS_41_property.pnml"
+#include "src/DMU/NMBS_MS_41_graphics.pnml"
+#include "src/DMU/NMBS_MS_41_item.pnml"
+
+// Cargo DMU 
+#include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
+
+//EMU
+#include "src/_CodeSupport/TypeInitialization/init_type_EMU.pnml"
+#include "src/EMU/NMBS_MS_96_property.pnml"
+#include "src/EMU/NMBS_MS_96_graphics.pnml"
+#include "src/EMU/NMBS_MS_96_item.pnml"
+#include "src/EMU/NMBS_MS_Classic_property.pnml"
+#include "src/EMU/NMBS_MS_Classic_graphics.pnml"
+#include "src/EMU/NMBS_MS_Classic_item.pnml"
+
+//Single Unit Metro
+#include "src/_CodeSupport/TypeInitialization/init_type_RBMTRO.pnml"
+
+
+
+//Multiple Unit Metro
+#include "src/_CodeSupport/TypeInitialization/init_type_Metro.pnml"
+
+
+// Single unit maglev
+#include "src/_CodeSupport/TypeInitialization/init_type_RBMGLV.pnml"
+
+//Maglev
+#include "src/_CodeSupport/TypeInitialization/init_type_Maglev.pnml"
+
+//coaches
+#include "src/_CodeSupport/TypeInitialization/init_type_Coaches.pnml"
+#include "src/Coaches/NMBS_I10_PASS_property.pnml"
+#include "src/Coaches/NMBS_I10_PASS_graphics.pnml"
+#include "src/Coaches/NMBS_I10_PASS_item.pnml"
+#include "src/Coaches/NMBS_I10_MAIL_property.pnml"
+#include "src/Coaches/NMBS_I10_MAIL_graphics.pnml"
+#include "src/Coaches/NMBS_I10_MAIL_item.pnml"
+
+//wagons
+#include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"
+
+//obsolete vehicles
+
+//sort vehicles in purchase list
+#include "src/vehiclesort.pnml"

@@ -1,0 +1,103 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+//This file sets all vehicle IDs. Each type has a range of 1000 possible IDs.
+
+//Railbus-Steam, available ID range: 1000-1499 (hex 0x03E8..0x05DB)
+#define ID_RANGE_RBS 0x03E8..0x05DB
+
+//Railbus-Diesel, available ID range: 2000-2499 (hex 0x07D0..0x09C3)
+#define ID_RANGE_RBD 0x07D0..0x09C3
+// 2007 free
+// 2016 free
+
+//Railbus-Electric, available ID range: 3000-3499 (hex 0x0BB8..0x0DAB)
+#define ID_RANGE_RBE 0x0BB8..0x0DAB
+// 3003 free
+
+//Steam, available ID range: 4000-4999 (hex 0x0FA0..0x1387)
+#define ID_RANGE_STEAM 0x0FA0..0x1387
+//4001 free
+//4003 free
+//4030 free
+//4032 free
+// 4048 free
+item(FEAT_TRAINS, item_steam_NMBS_Type_12, 4200) {}
+
+//Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
+#define ID_RANGE_DIESEL 0x1388..0x176F
+// 5011 feee
+//5038 free
+// 5057 free
+//5064 free
+item(FEAT_TRAINS, item_diesel_NMBS_HLD_77, 5200) {}
+item(FEAT_TRAINS, item_diesel_NMBS_HLD_62, 5202) {}
+
+//Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
+#define ID_RANGE_ELECTRIC 0x1770..0x1B57
+item(FEAT_TRAINS, item_electric_NMBS_HLE_27, 6200) {}
+item(FEAT_TRAINS, item_electric_NMBS_HLE_28, 6202) {}
+
+
+
+//DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)
+#define ID_RANGE_DMU 0x1B58..0x1F3F
+// 7007 free
+// 7034 free
+item(FEAT_TRAINS, item_dmu_NMBS_MS_41, 7200) {}
+
+
+//EMU, available ID range: 8000-8999 (hex 0x1F40..0x2327)
+#define ID_RANGE_EMU 0x1F40..0x2327
+item(FEAT_TRAINS, item_emu_NMBS_MS_96, 8200) {}
+item(FEAT_TRAINS, item_emu_NMBS_MS_Classic, 8202) {}
+
+
+//Multi Unit Metro, available ID range: 9000-9999 (hex 0x2328..0x270F)
+#define ID_RANGE_MULTIMETRO 0x2328..0x270F
+//9000 free
+//9001 free
+//9003 free
+//9005 free
+
+//Multi Unit Maglev, available ID range: 10000-10499 (hex 0x2710..0x2903)
+#define ID_RANGE_MULTIMAGLEV 0x2710..0x2903
+
+//Coaches, available ID range: 11000-11999 (hex 0x2AF8..0x2EDF)
+#define ID_RANGE_COACHES 0x2AF8..0x2EDF
+item(FEAT_TRAINS, item_coach_NMBS_I10_PASS, 10200) {}
+item(FEAT_TRAINS, item_coach_NMBS_I10_MAIL, 10201) {}
+
+//Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
+#define ID_RANGE_WAGONS 0x2EE0..0x32C7
+
+//Unit Wagons, available ID range: 13000-13499 (hex 0x32C8..0x34BB)
+#define ID_RANGE_UNIT_WAGONS 0x32C8..0x34BB
+#define ID_RANGE_UNIT_WAGONS_RAIL 0x32C8..0x32C9
+#define ID_RANGE_UNIT_WAGONS_MTRO 0x32CA..0x32CB
+#define ID_RANGE_UNIT_WAGONS_MGLV 0x32CC..0x32CD
+#define ID_RANGE_UNIT_WAGONS_RAIL_CARGO 0x32CE..0x32CF
+item(FEAT_TRAINS, item_mu_wagon_unpowered, 13000) {}
+item(FEAT_TRAINS, item_mu_wagon_powered, 13001) {}
+
+//Single Unit Metros, available ID range: 14000-14499 (hex 0x36B0..0x38A3)
+#define ID_RANGE_SINGLEMETRO 0x36B0..0x38A3
+
+//SMU, available ID range: 14500-14999 (hex 0x38A4..0x3A97)
+#define ID_RANGE_SMU 0x38A4..0x3A97
+//Currently has no vehicles, range reserved
+
+//Cargo DMU, available ID range: 15500-15499 (hex 0x3C8C..0x3E7F)
+#define ID_RANGE_CARGODMU 0x3C8C..0x3E7F
+
+//Railbus-Maglev, available ID range: 16000-16499 (hex 0x3E80..0x4073)
+#define ID_RANGE_RBM 0x3E80..0x4073
+
+//Single Unit Maglevs, available ID range: 15000-15499 (hex 0x3A98..0x3C8B)
+#define ID_RANGE_SINGLEMAGLEV 0x3A98..0x3C8B
+//Currently has no vehicles, range reserved

@@ -1,0 +1,126 @@
+﻿##grflangid 0x01
+
+#Main grf title and description
+STR_GRF_NAME			:{TITLE}
+STR_GRF_DESCRIPTION		:{SILVER}2cc Trains of the World in NML {}{}(c)2ccts {}License:GPLv2 or higher. {}See readme for details.
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
+
+#General error messages
+str_used_with_dynamic_engines 		:dynamic_engines = true (setting in openttd.cfg)
+str_error_region					:No regions enabled, {STRING} has been disabled
+
+#parameter strings
+#cost parameters
+STR_PARAM_PURCHASE_COST             :Purchase cost multiplier
+STR_PARAM_PURCHASE_COST_DESC        :You can use this setting to increase or decrease the purchase costs of the vehicles in this set.
+STR_PARAM_RUNNING_COST              :Running cost multiplier
+STR_PARAM_RUNNING_COST_DESC         :You can use this setting to increase or decrease the running costs of the vehicles in this set.
+
+STR_PARAM_DIVIDE_16                 :1/16
+STR_PARAM_DIVIDE_8                  :1/8
+STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_DIVIDE_2                  :1/2
+STR_PARAM_NORMAL                    :1 (default)
+STR_PARAM_TIMES_2                   :2
+STR_PARAM_TIMES_4                   :4
+STR_PARAM_TIMES_8                   :8
+STR_PARAM_TIMES_16                  :16
+
+#region parameters
+STR_PARAM_CONCEPT						:Concept vehicles
+STR_PARAM_CONCEPT_DESC					:Use concept vehicles
+STR_PARAM_REGION_AFRICA					:Africa
+STR_PARAM_REGION_AFRICA_DESC			:Use vehicles from Africa
+STR_PARAM_REGION_NORTHAMERICA			:North America
+STR_PARAM_REGION_NORTHAMERICA_DESC		:Use vehicles from North America
+STR_PARAM_REGION_SOUTHAMERICA			:South America
+STR_PARAM_REGION_SOUTHAMERICA_DESC		:Use vehicles from South America
+STR_PARAM_REGION_ASIA					:Asia
+STR_PARAM_REGION_ASIA_DESC				:Use vehicles from Asia
+STR_PARAM_REGION_NORTHERNEUROPE			:Northern Europe
+STR_PARAM_REGION_NORTHERNEUROPE_DESC	:Use vehicles from Northern Europe
+STR_PARAM_REGION_EASTERNEUROPE			:Eastern Europe
+STR_PARAM_REGION_EASTERNEUROPE_DESC		:Use vehicles from Eastern Europe
+STR_PARAM_REGION_SOUTHERNEUROPE			:Southern Europe
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC	:Use vehicles from Southern Europe
+STR_PARAM_REGION_WESTERNEUROPE			:Western Europe
+STR_PARAM_REGION_WESTERNEUROPE_DESC		:Use vehicles from Western Europe
+STR_PARAM_REGION_OCEANIA				:Oceania
+STR_PARAM_REGION_OCEANIA_DESC			:Use vehicles from Oceania
+
+#loading speed parameter
+STR_PARAM_LOADINGSPEED					:Loading speed
+STR_PARAM_LOADINGSPEED_DESC				:Set the loading speed of this set
+STR_PARAM_LOADINGSPEED_SLOW				:Slow
+STR_PARAM_LOADINGSPEED_NORMAL			:Normal (default)
+STR_PARAM_LOADINGSPEED_FAST				:Fast
+STR_PARAM_LOADINGSPEED_ULTRA			:As fast as possible
+
+#VEHICLE NAMES
+#Railbus-steam
+
+#Railbus-diesel
+
+#Railbus-electric
+
+
+#Steam
+str_name_steam_NMBS_Type_12 			:NMBS/SNCB Type 12 (Steam)
+
+
+#Diesel
+str_name_diesel_NMBS_HLD_62 			:NMBS/SNCB HLD 62 (Diesel)
+str_text_diesel_NMBS_HLD_62				:{BLACK}History: {GOLD}Designed as replacement for steam engines, four engines became rescue trains for HST
+str_name_diesel_NMBS_HLD_77 			:NMBS/SNCB HLD 77 (Diesel)
+
+#Electric
+str_name_electric_NMBS_HLE_27 			:NMBS/SNCB HLE 27 (Electric)
+str_name_electric_NMBS_HLE_28 			:NMBS/SNCB HLE 28 (Electric)
+
+
+#DMU
+
+str_name_dmu_NMBS_MS_41 				:NMBS/SNCB MS 41 (DMU)
+
+#CargoDMU
+
+#EMU
+str_name_emu_NMBS_MS_96 				:NMBS/SNCB MS 96 (EMU)
+str_name_emu_NMBS_MS_Classic 			:NMBS/SNCB MS Classic (EMU)
+str_text_emu_NMBS_MS_Classic 			:{BLACK}Classes: {GOLD}MS39, MS46, MS50, MS51, MS53, MS54, MS55, MS56, MS62, MS66, MS70, MS73, MSCR
+str_text_emu_NMBS_MS_Classic_green 		: (Green livery, 1939 - 1985)
+str_text_emu_NMBS_MS_Classic_red 		: (Red livery, 1985 - 2000)
+str_text_emu_NMBS_MS_Classic_memling	: (Memling livery, 2000 - ...)
+str_text_emu_NMBS_MS_Classic_automatic	: (Automatic livery updates)
+
+#Single Unit Metro
+
+#Multiple Unit Metro
+
+#Maglev railbus
+
+#Maglev
+
+#wagons
+
+#coaches
+str_name_coach_NMBS_I10_PASS			:NMBS/SNCB I10 Coach (Passengers)
+str_name_coach_NMBS_I10_MAIL			:NMBS/SNCB I10 Coach (Mail)
+
+#special wagons
+str_name_mu_wagon_unpowered			:NMBS/SNCB Multiple Unit Wagon (Unpowered)
+str_name_mu_wagon_powered			:NMBS/SNCB Multiple Unit Wagon (Powered)
+
+#Obsolete vehicles
+
+#PURCHASE MENU TEXTS
+str_unit_wagon_passenger		:This generic wagon can ONLY be used with NMBS/SNCB passenger MUs to create trains of the desired length
+str_unit_wagon_cargo			:This generic wagon can ONLY be used with NMBS/SNCB cargo MUs to create trains of the desired length
+
+#Can attach vehicle texts
+str_cannot_attach_wagon_to_MU					:Cannot attach wagon to Multiple Unit engine
+str_cannot_attach_wagon_to_Unit_Wagon			:Cannot attach regular wagon to Unit Wagon
+str_cannot_attach_Unit_wagon_to_engine			:Cannot attach Unit Wagon to regular engine
+str_cannot_attach_Unit_wagon_to_wagon			:Cannot attach Unit Wagon to regular wagon
+str_cannot_attach_Unit_wagon_cargo_to_passenger	:Cannot attach cargo Unit Wagon to passenger Multiple Unit engine
+str_cannot_attach_Unit_wagon_passenger_to_cargo	:Cannot attach passenger Unit Wagon to cargo Multiple Unit engine
