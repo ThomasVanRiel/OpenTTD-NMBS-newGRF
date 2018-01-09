@@ -1,5 +1,4 @@
-# Use glob syntax:
-syntax: glob
+build.sh
 
 # And the description file and the grs which are generated automatically
 # This has to be adopted to the newgrf filename
@@ -15,8 +14,8 @@ Makefile.fordist
 *-*-source
 *-*-source.tar*
 *-*-source.zip
-2ccts/*
-2ccts.tar
+belgiantrains/*
+belgiantrains.tar
 
 # The local makefile should be ignored:
 Makefile.local

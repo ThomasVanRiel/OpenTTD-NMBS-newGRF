@@ -95,7 +95,7 @@ all: $(GENERATE_GRF) $(GENERATE_DOC) bundle_tar
 MAKE           ?= make
 MAKE_FLAGS     ?= -r
 
-NML            ?= nmlc
+NML            ?= nmlc/nmlc
 NML_FLAGS      ?= -c
 ifdef REQUIRED_NML_BRANCH
 	NML_BRANCH = $(shell $(NML) --version | head -n1 | cut -d. -f1-2)
