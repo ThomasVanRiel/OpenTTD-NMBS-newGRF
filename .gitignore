@@ -41,3 +41,7 @@ Makefile.dep
 # Files created by Mac image preview and file browser:
 **/.DS_Store
 **/Thumbs.db
+
+# Sublime text project files
+*.sublime-project
+*.sublime-workspace
