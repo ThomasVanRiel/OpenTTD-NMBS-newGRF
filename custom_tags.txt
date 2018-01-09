@@ -1,6 +1,0 @@
-VERSION        :master-v1M (h36ed1a7)
-VERSION_STRING :master-v1M (h36ed1a7)
-TITLE          :Belgian Trains master-v1M (h36ed1a7)
-FILENAME       :belgiantrains.grf
-REPO_HASH      :h36ed1a7
-NEWGRF_VERSION :1

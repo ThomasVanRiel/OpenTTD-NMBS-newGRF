@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_emu_NMBS_MS_Classic_green_purchase, "gfx/EMU/NMBS_MS_Classic.png") {
-	template_purchase_dualheaded(179, 128)
+	template_purchase_dualheaded(1, 128)
 }
 
 spriteset(spriteset_emu_NMBS_MS_Classic_red_purchase, "gfx/EMU/NMBS_MS_Classic.png") {
@@ -121,9 +121,9 @@ switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_middle_livery, cargo_subtyp
 
 //Purchase
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_purchase, current_year) {
-	1900..1984: spriteset_emu_NMBS_MS_Classic_green_middle;
-	1984..1999: spriteset_emu_NMBS_MS_Classic_red_middle;
-	spriteset_emu_NMBS_MS_Classic_memling_middle;
+	1900..1984: spriteset_emu_NMBS_MS_Classic_green_purchase;
+	1984..1999: spriteset_emu_NMBS_MS_Classic_red_purchase;
+	spriteset_emu_NMBS_MS_Classic_memling_purchase;
 }
 
 //Dualheaded engines
