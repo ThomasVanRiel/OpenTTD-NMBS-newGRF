@@ -109,6 +109,10 @@ str_text_coach_NMBS_I10_livery_standard	: (Standard coach)
 str_text_coach_NMBS_I10_livery_diner	: (Diner car)
 str_text_coach_NMBS_I10_livery_panorama	: (Panorama coach)
 str_text_coach_NMBS_I10_livery_sleeper	: (Sleeper car)
+str_name_coach_NMBS_I11					:NMBS/SNCB I11 Coach
+str_text_coach_NMBS_I11_livery_front	: (Front coach)
+str_text_coach_NMBS_I11_livery_middle	: (Middle coach)
+str_text_coach_NMBS_I11_livery_back		: (Back coach)
 
 #special wagons
 str_name_mu_wagon_unpowered			:NMBS/SNCB Multiple Unit Wagon (Unpowered)

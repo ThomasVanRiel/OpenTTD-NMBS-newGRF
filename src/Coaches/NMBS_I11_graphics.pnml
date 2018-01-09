@@ -10,115 +10,72 @@
 * PURCHASE
 */
 
-spriteset(spriteset_coach_NMBS_I11_REAR_purchase, "gfx/Coaches/NMBS_I11_REAR.png") {
-	template_purchase_dualheaded(1, 320)
+spriteset(spriteset_coach_NMBS_I11_purchase, "gfx/Coaches/NMBS_I11.png") {
+	template_purchase_dualheaded(1, 96)
 }
 
 /*
 * Vehicle
 */
-//Front
-spriteset(spriteset_coach_NMBS_I11_REAR_front, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 1)
+//Front - PASS
+spriteset(spriteset_coach_NMBS_I11_PASS_front, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 1)
 }
 
-//Back
-spriteset(spriteset_coach_NMBS_I11_REAR_back, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 32)
+//Middle - PASS
+spriteset(spriteset_coach_NMBS_I11_PASS_middle, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 64)
 }
 
-//Middle - PAX - Part 2 regular
-spriteset(spriteset_coach_NMBS_I11_REAR_middlepass_regular, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 64)
+//Back - PASS
+spriteset(spriteset_coach_NMBS_I11_PASS_back, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 32)
 }
 
-//Middle - PAX - Part 2 Front
-spriteset(spriteset_coach_NMBS_I11_REAR_middlepass_part2_front, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 96)
+//SWITCH - PASS
+switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_PASS_livery, cargo_subtype) {
+	1: spriteset_coach_NMBS_I11_PASS_front;
+	0: spriteset_coach_NMBS_I11_PASS_middle;
+	spriteset_coach_NMBS_I11_PASS_back;
 }
 
-//Middle - PAX - Part 2 Back
-spriteset(spriteset_coach_NMBS_I11_REAR_middlepass_part2_back, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 128)
+//Front - MAIL
+spriteset(spriteset_coach_NMBS_I11_MAIL_front, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 1)
 }
 
-//Middle - PAX - Double
-spriteset(spriteset_coach_NMBS_I11_REAR_middlepass_double, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 160)
+//Middle - MAIL
+spriteset(spriteset_coach_NMBS_I11_MAIL_middle, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 64)
 }
 
-switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_REAR_middlepass_position_back, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-	ID_RANGE_UNIT_WAGONS: spriteset_coach_NMBS_I11_REAR_middlepass_regular;
-	spriteset_coach_NMBS_I11_REAR_middlepass_part2_back;
+//Back - MAIL
+spriteset(spriteset_coach_NMBS_I11_MAIL_back, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 32)
 }
 
-switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_REAR_middlepass_position_front, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-	ID_RANGE_UNIT_WAGONS: spriteset_coach_NMBS_I11_REAR_middlepass_part2_front;
-	spriteset_coach_NMBS_I11_REAR_middlepass_double;
+//SWITCH - MAIL
+switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_MAIL_livery, cargo_subtype) {
+	1: spriteset_coach_NMBS_I11_MAIL_front;
+	0: spriteset_coach_NMBS_I11_MAIL_middle;
+	spriteset_coach_NMBS_I11_MAIL_back;
 }
 
-switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_REAR_middlepass_length, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-	ID_RANGE_UNIT_WAGONS: switch_coach_NMBS_I11_REAR_middlepass_position_back;
-	switch_coach_NMBS_I11_REAR_middlepass_position_front;
+switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_cargo_selection, cargo_classes){
+	bitmask(CC_PASSENGERS): switch_coach_NMBS_I11_PASS_livery;
+	switch_coach_NMBS_I11_MAIL_livery;
 }
 
-//Middle - MAIL - Part 2 regular
-spriteset(spriteset_coach_NMBS_I11_REAR_middlemail_regular, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 192)
+//cargo subtype
+switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_cargo_subtype_text, cargo_subtype) {
+    1: return string(str_text_coach_NMBS_I11_livery_front);
+    0: return string(str_text_coach_NMBS_I11_livery_middle);
+    2: return string(str_text_coach_NMBS_I11_livery_back);
+    return CB_RESULT_NO_TEXT;
 }
 
-//Middle - MAIL - Part 2 Front
-spriteset(spriteset_coach_NMBS_I11_REAR_middlemail_part2_front, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 224)
-}
-
-//Middle - MAIL - Part 2 Back
-spriteset(spriteset_coach_NMBS_I11_REAR_middlemail_part2_back, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 256)
-}
-
-//Middle - MAIL - Double
-spriteset(spriteset_coach_NMBS_I11_REAR_middlemail_double, "gfx/Coaches/NMBS_I11_REAR.PNG") {
-	template_2cc_engines_general(1, 288)
-}
-
-switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_REAR_middlemail_position_back, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-	ID_RANGE_UNIT_WAGONS: spriteset_coach_NMBS_I11_REAR_middlemail_regular;
-	spriteset_coach_NMBS_I11_REAR_middlemail_part2_back;
-}
-
-switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_REAR_middlemail_position_front, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-	ID_RANGE_UNIT_WAGONS: spriteset_coach_NMBS_I11_REAR_middlemail_part2_front;
-	spriteset_coach_NMBS_I11_REAR_middlemail_double;
-}
-
-switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_REAR_middlemail_length, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-	ID_RANGE_UNIT_WAGONS: switch_coach_NMBS_I11_REAR_middlemail_position_back;
-	switch_coach_NMBS_I11_REAR_middlemail_position_front;
-}
-
-//Dualheaded engines
-switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_REAR_reversed, var[0xC8]) {
-	0xFE: spriteset_coach_NMBS_I11_REAR_back;
-    0xFF: spriteset_coach_NMBS_I11_REAR_back; 
-    spriteset_coach_NMBS_I11_REAR_front;
-}
-
-//Visual effect, for EMU this is done on the part with the pantograph
-switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_REAR_visual_effect_and_powered, var[0xC8]) {
-	0xFE: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
-	0xFF: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
-	visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
-
-//Graphics for the unit wagon based on cargo class
-switch(FEAT_TRAINS, SELF, 	switch_coach_NMBS_I11_REAR_cargo_selection, cargo_classes){
-	bitmask(CC_PASSENGERS): switch_coach_NMBS_I11_REAR_middlepass_length;
-							switch_coach_NMBS_I11_REAR_middlemail_length;
-}
 
 //Add defined switches
-WAGONCAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 
