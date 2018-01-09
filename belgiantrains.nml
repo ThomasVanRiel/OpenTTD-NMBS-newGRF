@@ -75,7 +75,7 @@ grf {
  name: string(STR_GRF_NAME);
  desc: string(STR_GRF_DESCRIPTION);
     url: string(STR_GRF_URL);
- version: 0;
+ version: 1;
  min_compatible_version: 6133;
     param {
         param_purchase_cost {
@@ -218,7 +218,7 @@ grf {
 }
 
 //disable original rail vehicles
-disable_item(FEAT_TRAINS, 0, 115);
+//disable_item(FEAT_TRAINS, 0, 115);
 
 //set base cost multiplier for this set
 basecost {

@@ -83,18 +83,17 @@ ROOT_DIR=`pwd`
 # Determine if we are using a modified version
 # Assume the dir is not modified
 MODIFIED=""
-REPO_DATE="2000,1,1"
-if [ -d "$ROOT_DIR/.hg" ]; then
-	# We are a hg checkout
-	if [ -n "`hg status -S | grep -v '^?'`" ]; then
+REPO_DATE="2018,1,8"
+if [ -d "$ROOT_DIR/.git" ]; then
+	# We are a git checkout
+	if [ -n "`git status | grep -v '^modified'`" ]; then
 		MODIFIED="M"
 	fi
-	HASH=`LC_ALL=C hg id -i | cut -c1-12`
-	REV="h`echo $HASH | cut -c1-8`"
-	BRANCH="`hg branch | sed 's@^default$@@'`"
-	TAG="`hg id -t | grep -v 'tip$'`"
-	REPO_DATE="`hg log -r$HASH --template="{date|shortdate}" | sed s/-/,/g | sed s/,0/,/g`"
-	VERSION=`python -c "from datetime import date; print (date($REPO_DATE)-date(2000,1,1)).days"`
+	HASH="h`git log -1 --pretty=format:%h`"
+	BRANCH="`git branch | cut -c 3-`"
+	TAG="`git tag`"
+	REPO_DATE="`git log -1 --pretty=format:%ct`"
+	VERSION=`python -c "from datetime import date; print (date.fromtimestamp($REPO_DATE)-date(2018,1,8)).days"`
 	DISPLAY_VERSION="v${VERSION}"
 	if [ -n "$TAG" ]; then
 		BRANCH=""
