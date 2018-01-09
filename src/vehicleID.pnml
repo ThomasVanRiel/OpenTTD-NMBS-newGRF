@@ -27,7 +27,7 @@
 //4030 free
 //4032 free
 // 4048 free
-item(FEAT_TRAINS, item_steam_NMBS_Type_12, 4200) {}
+item(FEAT_TRAINS, item_steam_NMBS_Type_12, 4005) {}
 
 //Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
 #define ID_RANGE_DIESEL 0x1388..0x176F
@@ -71,6 +71,7 @@ item(FEAT_TRAINS, item_emu_NMBS_MS_Classic, 8202) {}
 //Coaches, available ID range: 11000-11999 (hex 0x2AF8..0x2EDF)
 #define ID_RANGE_COACHES 0x2AF8..0x2EDF
 item(FEAT_TRAINS, item_coach_NMBS_I10, 10200) {}
+item(FEAT_TRAINS, item_coach_NMBS_I11, 10201) {}
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7
