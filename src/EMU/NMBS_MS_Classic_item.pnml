@@ -44,7 +44,7 @@ item(FEAT_TRAINS, ITEM ) {
 	graphics {
 		purchase: switch_emu_NMBS_MS_Classic_purchase;
 		additional_text: TEXT;
-		cargo_subtype_text: switch_NMBS_MS_Classic_cargo_subtype_text;
+		cargo_subtype_text: switch_emu_NMBS_MS_Classic_cargo_subtype_text;
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		visual_effect_and_powered: switch_emu_NMBS_MS_Classic_visual_effect_and_powered;
 		can_attach_wagon: switch_can_attach_vehicle;
@@ -55,7 +55,7 @@ item(FEAT_TRAINS, ITEM ) {
 		default: switch_emu_NMBS_MS_Classic_reversed;
 	}
 	livery_override (item_mu_wagon_unpowered ) {
-		cargo_subtype_text: switch_NMBS_MS_Classic_cargo_subtype_text;
+		cargo_subtype_text: switch_emu_NMBS_MS_Classic_cargo_subtype_text;
 		LOADINGSPEEDPROPERTY
 		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
 		weight: WEIGHTMUWAGONUNPOWERED
@@ -64,7 +64,7 @@ item(FEAT_TRAINS, ITEM ) {
 		default: switch_emu_NMBS_MS_Classic_middle_livery;
 	}
 	livery_override (item_mu_wagon_powered ) {
-		cargo_subtype_text: switch_NMBS_MS_Classic_cargo_subtype_text;
+		cargo_subtype_text: switch_emu_NMBS_MS_Classic_cargo_subtype_text;
 		LOADINGSPEEDPROPERTY
 		RUNNINGCOSTMUWAGONPOWEREDSWITCHCALL
 		power: POWERMUWAGONPOWERED

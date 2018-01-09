@@ -152,11 +152,11 @@ WAGONCAPACITYSWITCH(VEHIDCODE)
 //Add defined switches
 
 //cargo subtype
-switch(FEAT_TRAINS, SELF, switch_NMBS_MS_Classic_cargo_subtype_text, cargo_subtype) {
-    0: return string(str_text_emu_NMBS_MS_Classic_green);
-    1: return string(str_text_emu_NMBS_MS_Classic_red);
-    2: return string(str_text_emu_NMBS_MS_Classic_memling);
-    3: return string(str_text_emu_NMBS_MS_Classic_automatic);
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_cargo_subtype_text, cargo_subtype) {
+    0: return string(str_text_emu_NMBS_MS_Classic_livery_green);
+    1: return string(str_text_emu_NMBS_MS_Classic_livery_red);
+    2: return string(str_text_emu_NMBS_MS_Classic_livery_memling);
+    3: return string(str_text_emu_NMBS_MS_Classic_livery_automatic);
     return CB_RESULT_NO_TEXT;
 }
 

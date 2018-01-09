@@ -42,10 +42,12 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_coach_NMBS_I10_PASS_purchase;
+		purchase: spriteset_coach_NMBS_I10_purchase;
+		cargo_subtype_text: switch_coach_NMBS_I10_cargo_subtype_text;
+		
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
-		default: switch_coach_NMBS_I10_PASS_livery;
+		default: switch_coach_NMBS_I10_cargo_selection;
 	}
 }

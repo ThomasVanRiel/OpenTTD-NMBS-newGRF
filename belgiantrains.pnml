@@ -132,12 +132,10 @@
 
 //coaches
 #include "src/_CodeSupport/TypeInitialization/init_type_Coaches.pnml"
-#include "src/Coaches/NMBS_I10_PASS_property.pnml"
-#include "src/Coaches/NMBS_I10_PASS_graphics.pnml"
-#include "src/Coaches/NMBS_I10_PASS_item.pnml"
-#include "src/Coaches/NMBS_I10_MAIL_property.pnml"
-#include "src/Coaches/NMBS_I10_MAIL_graphics.pnml"
-#include "src/Coaches/NMBS_I10_MAIL_item.pnml"
+#include "src/Coaches/NMBS_I10_property.pnml"
+#include "src/Coaches/NMBS_I10_graphics.pnml"
+#include "src/Coaches/NMBS_I10_item.pnml"
+
 
 //wagons
 #include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"

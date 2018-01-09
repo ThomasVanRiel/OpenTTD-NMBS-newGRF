@@ -88,10 +88,10 @@ str_name_dmu_NMBS_MS_41 				:NMBS/SNCB MS 41 (DMU)
 str_name_emu_NMBS_MS_96 				:NMBS/SNCB MS 96 (EMU)
 str_name_emu_NMBS_MS_Classic 			:NMBS/SNCB MS Classic (EMU)
 str_text_emu_NMBS_MS_Classic 			:{BLACK}Classes: {GOLD}MS39, MS46, MS50, MS51, MS53, MS54, MS55, MS56, MS62, MS66, MS70, MS73, MSCR
-str_text_emu_NMBS_MS_Classic_green 		: (Green livery, 1939 - 1985)
-str_text_emu_NMBS_MS_Classic_red 		: (Red livery, 1985 - 2000)
-str_text_emu_NMBS_MS_Classic_memling	: (Memling livery, 2000 - ...)
-str_text_emu_NMBS_MS_Classic_automatic	: (Automatic livery updates)
+str_text_emu_NMBS_MS_Classic_livery_green 		: (Green livery, 1939 - 1985)
+str_text_emu_NMBS_MS_Classic_livery_red 		: (Red livery, 1985 - 2000)
+str_text_emu_NMBS_MS_Classic_livery_memling		: (Memling livery, 2000 - ...)
+str_text_emu_NMBS_MS_Classic_livery_automatic	: (Automatic livery updates)
 
 #Single Unit Metro
 
@@ -104,8 +104,11 @@ str_text_emu_NMBS_MS_Classic_automatic	: (Automatic livery updates)
 #wagons
 
 #coaches
-str_name_coach_NMBS_I10_PASS			:NMBS/SNCB I10 Coach (Passengers)
-str_name_coach_NMBS_I10_MAIL			:NMBS/SNCB I10 Coach (Mail)
+str_name_coach_NMBS_I10					:NMBS/SNCB I10 Coach
+str_text_coach_NMBS_I10_livery_standard	: (Standard coach)
+str_text_coach_NMBS_I10_livery_diner	: (Diner car)
+str_text_coach_NMBS_I10_livery_panorama	: (Panorama coach)
+str_text_coach_NMBS_I10_livery_sleeper	: (Sleeper car)
 
 #special wagons
 str_name_mu_wagon_unpowered			:NMBS/SNCB Multiple Unit Wagon (Unpowered)

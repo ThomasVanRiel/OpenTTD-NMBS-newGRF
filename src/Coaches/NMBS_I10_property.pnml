@@ -8,9 +8,9 @@
 
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE coach_NMBS_I10_MAIL
-#define ITEM item_coach_NMBS_I10_MAIL
-#define NAME string(str_name_coach_NMBS_I10_MAIL)
+#define VEHIDCODE coach_NMBS_I10
+#define ITEM item_coach_NMBS_I10
+#define NAME string(str_name_coach_NMBS_I10)
 
 #define VEHICLE_REGION REGION(AMERICA,OCEANIA,NOCONCEPT)
 
@@ -19,19 +19,19 @@
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
 #define VEHICLE_LIFE 30
 
-#define LOADINGSPEED LOADINGSPEEDDEF_MAIL
-#define CARGODEF CARGODEF_MAIL_ONLY
+#define LOADINGSPEED LOADINGSPEEDDEF_COMMUTER
+#define CARGODEF CARGODEF_PASSENGERS
 
 #define SPEED 160
 #define POWER 0
-#define WEIGHT 38
+#define WEIGHT 41
 #define TE_COEFFICIENT 0.3
 #define AIR_DRAG_COEFFICIENT 0
 
 #define LENGTH 8
 #define ACTUAL_LENGTH 8
 
-#define HEAD_CAPACITY 60
+#define HEAD_CAPACITY 86
 
 
 #define DUAL_HEADED 0
