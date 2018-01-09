@@ -1,0 +1,82 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU Gen3eral Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Gen3eral Public License for more details.
+ *  You should have received a copy of the GNU Gen3eral Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* PURCHASE
+*/
+
+spriteset(spriteset_coach_NMBS_I11_purchase, "gfx/Coaches/NMBS_I11.png") {
+	template_purchase_dualheaded(1, 96)
+}
+
+/*
+* Vehicle
+*/
+//Front - PASS
+spriteset(spriteset_coach_NMBS_I11_PASS_front, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 1)
+}
+
+//Middle - PASS
+spriteset(spriteset_coach_NMBS_I11_PASS_middle, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 64)
+}
+
+//Back - PASS
+spriteset(spriteset_coach_NMBS_I11_PASS_back, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 32)
+}
+
+//SWITCH - PASS
+switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_PASS_livery, cargo_subtype) {
+	1: spriteset_coach_NMBS_I11_PASS_front;
+	0: spriteset_coach_NMBS_I11_PASS_middle;
+	spriteset_coach_NMBS_I11_PASS_back;
+}
+
+//Front - MAIL
+spriteset(spriteset_coach_NMBS_I11_MAIL_front, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 1)
+}
+
+//Middle - MAIL
+spriteset(spriteset_coach_NMBS_I11_MAIL_middle, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 64)
+}
+
+//Back - MAIL
+spriteset(spriteset_coach_NMBS_I11_MAIL_back, "gfx/Coaches/NMBS_I11.png") {
+	template_2cc_wagons(1, 32)
+}
+
+//SWITCH - MAIL
+switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_MAIL_livery, cargo_subtype) {
+	1: spriteset_coach_NMBS_I11_MAIL_front;
+	0: spriteset_coach_NMBS_I11_MAIL_middle;
+	spriteset_coach_NMBS_I11_MAIL_back;
+}
+
+switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_cargo_selection, cargo_classes){
+	bitmask(CC_PASSENGERS): switch_coach_NMBS_I11_PASS_livery;
+	switch_coach_NMBS_I11_MAIL_livery;
+}
+
+//cargo subtype
+switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I11_cargo_subtype_text, cargo_subtype) {
+    1: return string(str_text_coach_NMBS_I11_livery_front);
+    0: return string(str_text_coach_NMBS_I11_livery_middle);
+    2: return string(str_text_coach_NMBS_I11_livery_back);
+    return CB_RESULT_NO_TEXT;
+}
+
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

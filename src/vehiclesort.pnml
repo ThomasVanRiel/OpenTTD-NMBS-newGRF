@@ -48,7 +48,8 @@ item_emu_NMBS_MS_Classic, /*Year: 1939*/
 #define SORTING_MAGLEV 
 
 #define SORTING_COACHES \
-item_coach_NMBS_I10, /*Year: 1987*/
+item_coach_NMBS_I10, /*Year: 1987*/\
+item_coach_NMBS_I11, /*Year: 1995*/
 
 #define SORTING_WAGONS 
 

@@ -8,7 +8,7 @@
 
 // define the newgrf
 grf {
-	grfid:	"NM\09\04";
+	grfid:	"NM\09\05";
 	name:	string(STR_GRF_NAME);
 	desc:	string(STR_GRF_DESCRIPTION);
     url:    string(STR_GRF_URL);
