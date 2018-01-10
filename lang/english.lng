@@ -56,12 +56,18 @@ STR_PARAM_LOADINGSPEED_NORMAL			:Normal (default)
 STR_PARAM_LOADINGSPEED_FAST				:Fast
 STR_PARAM_LOADINGSPEED_ULTRA			:As fast as possible
 
-#color scheme parameter
+#Color scheme parameter
 STR_PARAM_COLOUR_SCHEME_NAME            :Colour scheme
 STR_PARAM_COLOUR_SCHEME_DESC            :Select the type of colour scheme to use
 STR_PARAM_COLOUR_SCHEME_1CC             :One company colour
 STR_PARAM_COLOUR_SCHEME_2CC             :Two company colours
 STR_PARAM_COLOUR_SCHEME_REAL            :Real-world colours
+
+#Default vehicles enable parameter
+str_param_disable_default_veh           :Disable default vehicles
+str_param_disable_default_veh_desc      :Make this newgrf enable default vehicles anyway.
+str_param_disable_default_en            :Enabled
+str_param_disable_default_dis           :Disabled
 
 #VEHICLE NAMES
 #Railbus-steam

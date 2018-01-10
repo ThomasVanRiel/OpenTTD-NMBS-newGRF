@@ -14,7 +14,7 @@ grf {
     url:    string(STR_GRF_URL);
 	version:		REPO_REVISION;
 	min_compatible_version:	6133;
-    param {
+    param 0 {
         param_purchase_cost {
             type:   int;
             name:   string(STR_PARAM_PURCHASE_COST);
@@ -35,7 +35,7 @@ grf {
             };
         }
     }
-    param {
+    param 1 {
         param_running_cost {
             type:   int;
             name:   string(STR_PARAM_RUNNING_COST);
@@ -56,7 +56,7 @@ grf {
             };
         }
     }
-	param {
+	param 2 {
 		ISCONCEPT {
 			type:	bool;
 			name:	string(STR_PARAM_CONCEPT);
@@ -64,7 +64,7 @@ grf {
 			def_value: 1;
 		}
 	}
-	param {
+	param 3 {
 		AFRICA {
 			type:	bool;
 			name:	string(STR_PARAM_REGION_AFRICA);
@@ -72,7 +72,7 @@ grf {
 			def_value: 1;
 		}
 	}
-	param {
+	param 4 {
 		NORTHAMERICA {
 			type:	bool;
 			name:	string(STR_PARAM_REGION_NORTHAMERICA);
@@ -80,7 +80,7 @@ grf {
 			def_value: 1;
 		}
 	}
-	param {
+	param 5 {
 		SOUTHAMERICA {
 			type:	bool;
 			name:	string(STR_PARAM_REGION_SOUTHAMERICA);
@@ -88,7 +88,7 @@ grf {
 			def_value: 1;
 		}
 	}	
-	param {
+	param 6 {
 		ASIA {
 			type:	bool;
 			name:	string(STR_PARAM_REGION_ASIA);
@@ -96,7 +96,7 @@ grf {
 			def_value: 1;
 		}
 	}	
-	param {
+	param 7 {
 		NORTHERNEUROPE {
 			type:	bool;
 			name:	string(STR_PARAM_REGION_NORTHERNEUROPE);
@@ -104,7 +104,7 @@ grf {
 			def_value: 1;
 		}
 	}
-	param {
+	param 8 {
 		EASTERNEUROPE {
 			type:	bool;
 			name:	string(STR_PARAM_REGION_EASTERNEUROPE);
@@ -112,7 +112,7 @@ grf {
 			def_value: 1;
 		}
 	}	
-	param {
+	param 9 {
 		SOUTHERNEUROPE {
 			type:	bool;
 			name:	string(STR_PARAM_REGION_SOUTHERNEUROPE);
@@ -120,7 +120,7 @@ grf {
 			def_value: 1;
 		}
 	}
-	param {
+	param 10 {
 		WESTERNEUROPE {
 			type:	bool;
 			name:	string(STR_PARAM_REGION_WESTERNEUROPE);
@@ -128,7 +128,7 @@ grf {
 			def_value: 1;
 		}
 	}
-	param {
+	param 11 {
 		OCEANIA {
 			type:	bool;
 			name:	string(STR_PARAM_REGION_OCEANIA);
@@ -136,26 +136,36 @@ grf {
 			def_value: 1;
 		}
 	}
-	param {
+	param 12 {
 		param_loadingspeed {
-				type:	int;
-				name:	string(STR_PARAM_LOADINGSPEED);
-				desc:	string(STR_PARAM_LOADINGSPEED_DESC);
-				min_value: 0;
-				max_value: 3;
-				def_value: 1;
-				names: {
-							0: string(STR_PARAM_LOADINGSPEED_SLOW);
-							1: string(STR_PARAM_LOADINGSPEED_NORMAL);
-							2: string(STR_PARAM_LOADINGSPEED_FAST);
-							3: string(STR_PARAM_LOADINGSPEED_ULTRA);
-				};
+			type:	int;
+			name:	string(STR_PARAM_LOADINGSPEED);
+			desc:	string(STR_PARAM_LOADINGSPEED_DESC);
+			min_value: 0;
+			max_value: 3;
+			def_value: 1;
+			names: {
+						0: string(STR_PARAM_LOADINGSPEED_SLOW);
+						1: string(STR_PARAM_LOADINGSPEED_NORMAL);
+						2: string(STR_PARAM_LOADINGSPEED_FAST);
+						3: string(STR_PARAM_LOADINGSPEED_ULTRA);
+			};
+		}
+	}
+	param 13 {
+		param_default_vehicles {
+			type:	bool;
+			name:	string(str_param_disable_default_veh);
+			desc:	string(str_param_disable_default_veh_desc);
+        	bit:  	0;
 		}
 	}
 }
 
 //disable original rail vehicles
-//disable_item(FEAT_TRAINS, 0, 115);
+if (param_default_vehicles == 1) {
+	disable_item(FEAT_TRAINS, 0, 155);
+}
 
 //set base cost multiplier for this set
 basecost {
