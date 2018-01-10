@@ -147,6 +147,9 @@
 #include "src/Coaches/NMBS_I11_property.pnml"
 #include "src/Coaches/NMBS_I11_graphics.pnml"
 #include "src/Coaches/NMBS_I11_item.pnml"
+#include "src/Coaches/NMBS_I1_property.pnml"
+#include "src/Coaches/NMBS_I1_graphics.pnml"
+#include "src/Coaches/NMBS_I1_item.pnml"
 
 
 //wagons
