@@ -13,6 +13,7 @@
 
 //Railbus-Diesel, available ID range: 2000-2499 (hex 0x07D0..0x09C3)
 #define ID_RANGE_RBD 0x07D0..0x09C3
+item(FEAT_TRAINS, item_diesel_NMBS_CLASS_42_RAILBUS, 2000) {}
 // 2007 free
 // 2016 free
 
@@ -28,6 +29,7 @@
 //4032 free
 // 4048 free
 item(FEAT_TRAINS, item_steam_NMBS_Type_12, 4005) {}
+item(FEAT_TRAINS, item_steam_NMBS_Type_29, 4006) {}
 
 //Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
 #define ID_RANGE_DIESEL 0x1388..0x176F
@@ -43,6 +45,7 @@ item(FEAT_TRAINS, item_diesel_NMBS_HLD_62, 5202) {}
 item(FEAT_TRAINS, item_electric_NMBS_HLE_27, 6200) {}
 item(FEAT_TRAINS, item_electric_NMBS_HLE_28, 6202) {}
 
+item(FEAT_TRAINS, item_electric_NMBS_I11_Control_Car, 6203) {}
 
 
 //DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)

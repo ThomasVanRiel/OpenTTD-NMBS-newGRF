@@ -14,13 +14,14 @@
  
 #define SORTING_RBS 
 
-#define SORTING_RBD
+#define SORTING_RBD \
+item_diesel_NMBS_CLASS_42_RAILBUS,  /*Year: 1954*/
 
 #define SORTING_RBE 
 
 #define SORTING_STEAM \
-item_steam_NMBS_Type_12, /*Year: 1939*/ 
-
+item_steam_NMBS_Type_12, /*Year: 1939*/\
+item_steam_NMBS_Type_29, /*Year: 1946*/ 
 
 #define SORTING_DIESEL \
 item_diesel_NMBS_HLD_62, /*Year: 1961*/\
@@ -28,7 +29,8 @@ item_diesel_NMBS_HLD_77, /*Year: 1999*/
 
 #define SORTING_ELECTRIC \
 item_electric_NMBS_HLE_27, /*Year: 1981*/\
-item_electric_NMBS_HLE_28, /*Year: 2007*/ 
+item_electric_NMBS_HLE_28, /*Year: 2007*/\
+item_electric_NMBS_I11_Control_Car, /*Year: 1995*/ 
 
 #define SORTING_DMU \
 item_dmu_NMBS_MS_41, /*Year: 2000*/ 

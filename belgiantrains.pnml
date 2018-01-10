@@ -67,7 +67,9 @@
 
 //Railbus-diesel
 #include "src/_CodeSupport/TypeInitialization/init_type_RBD.pnml"
-
+#include "src/Diesel/NMBS_CLASS_42_RAILBUS_property.pnml"
+#include "src/Diesel/NMBS_CLASS_42_RAILBUS_graphics.pnml"
+#include "src/Diesel/NMBS_CLASS_42_RAILBUS_item.pnml"
 
 //Railbus-electric
 #include "src/_CodeSupport/TypeInitialization/init_type_RBE.pnml"
@@ -78,6 +80,10 @@
 #include "src/Steam/NMBS_Type_12_property.pnml"
 #include "src/Steam/NMBS_Type_12_graphics.pnml"
 #include "src/Steam/NMBS_Type_12_item.pnml"
+#include "src/Steam/NMBS_Type_29_property.pnml"
+#include "src/Steam/NMBS_Type_29_graphics.pnml"
+#include "src/Steam/NMBS_Type_29_item.pnml"
+
 
 //Diesel
 #include "src/_CodeSupport/TypeInitialization/init_type_Diesel.pnml"
@@ -96,6 +102,9 @@
 #include "src/Electric/NMBS_HLE_28_property.pnml"
 #include "src/Electric/NMBS_HLE_28_graphics.pnml"
 #include "src/Electric/NMBS_HLE_28_item.pnml"
+#include "src/Electric/NMBS_I11_Control_Car_property.pnml"
+#include "src/Electric/NMBS_I11_Control_Car_graphics.pnml"
+#include "src/Electric/NMBS_I11_Control_Car_item.pnml"
 
 //DMU
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"

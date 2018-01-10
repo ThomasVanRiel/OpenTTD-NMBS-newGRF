@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_coach_NMBS_I11_purchase, "gfx/Coaches/NMBS_I11.png") {
-	template_purchase_dualheaded(1, 96)
+	template_purchase(1, 96)
 }
 
 /*

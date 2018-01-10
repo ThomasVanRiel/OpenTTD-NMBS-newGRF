@@ -56,17 +56,27 @@ STR_PARAM_LOADINGSPEED_NORMAL			:Normal (default)
 STR_PARAM_LOADINGSPEED_FAST				:Fast
 STR_PARAM_LOADINGSPEED_ULTRA			:As fast as possible
 
+#color scheme parameter
+STR_PARAM_COLOUR_SCHEME_NAME            :Colour scheme
+STR_PARAM_COLOUR_SCHEME_DESC            :Select the type of colour scheme to use
+STR_PARAM_COLOUR_SCHEME_1CC             :One company colour
+STR_PARAM_COLOUR_SCHEME_2CC             :Two company colours
+STR_PARAM_COLOUR_SCHEME_REAL            :Real-world colours
+
 #VEHICLE NAMES
 #Railbus-steam
 
 #Railbus-diesel
+str_name_diesel_NMBS_CLASS_42_Railbus 	:NMBS/SNCB Class 42 Railbus (Diesel)
+str_text_diesel_NMBS_CLASS_42_Railbus   :Usage : {ORANGE}Passenger {}{BLACK}Designed in 1954 for passenger railbus duties
 
 #Railbus-electric
 
 
 #Steam
 str_name_steam_NMBS_Type_12 			:NMBS/SNCB Type 12 (Steam)
-
+str_name_steam_NMBS_Type_29             :NMBS/SNCB Type 29 (Steam)
+str_text_steam_NMBS_Type_29			    :Usage : {ORANGE}Freight or Passenger 
 
 #Diesel
 str_name_diesel_NMBS_HLD_62 			:NMBS/SNCB HLD 62 (Diesel)
@@ -76,7 +86,7 @@ str_name_diesel_NMBS_HLD_77 			:NMBS/SNCB HLD 77 (Diesel)
 #Electric
 str_name_electric_NMBS_HLE_27 			:NMBS/SNCB HLE 27 (Electric)
 str_name_electric_NMBS_HLE_28 			:NMBS/SNCB HLE 28 (Electric)
-
+str_name_electric_NMBS_I11_Control_Car  :NMBS/SNCB I11 Control Car
 
 #DMU
 
