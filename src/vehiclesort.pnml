@@ -15,6 +15,7 @@
 #define SORTING_RBS 
 
 #define SORTING_RBD \
+item_diesel_NMBS_SERIES_622_RAILBUS,  /*Year: 1939*/\
 item_diesel_NMBS_CLASS_42_RAILBUS,  /*Year: 1954*/
 
 #define SORTING_RBE 

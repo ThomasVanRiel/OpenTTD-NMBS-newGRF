@@ -70,6 +70,9 @@
 #include "src/Diesel/NMBS_CLASS_42_RAILBUS_property.pnml"
 #include "src/Diesel/NMBS_CLASS_42_RAILBUS_graphics.pnml"
 #include "src/Diesel/NMBS_CLASS_42_RAILBUS_item.pnml"
+#include "src/Diesel/NMBS_SERIES_622_RAILBUS_property.pnml"
+#include "src/Diesel/NMBS_SERIES_622_RAILBUS_graphics.pnml"
+#include "src/Diesel/NMBS_SERIES_622_RAILBUS_item.pnml"
 
 //Railbus-electric
 #include "src/_CodeSupport/TypeInitialization/init_type_RBE.pnml"

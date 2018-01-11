@@ -14,6 +14,7 @@
 //Railbus-Diesel, available ID range: 2000-2499 (hex 0x07D0..0x09C3)
 #define ID_RANGE_RBD 0x07D0..0x09C3
 item(FEAT_TRAINS, item_diesel_NMBS_CLASS_42_RAILBUS, 2000) {}
+item(FEAT_TRAINS, item_diesel_NMBS_SERIES_622_RAILBUS, 2001) {}
 // 2007 free
 // 2016 free
 

@@ -75,6 +75,7 @@ str_param_disable_default_dis           :Disabled
 #Railbus-diesel
 str_name_diesel_NMBS_CLASS_42_Railbus 	:NMBS/SNCB Class 42 Railbus (Diesel)
 str_text_diesel_NMBS_CLASS_42_Railbus   :Usage : {ORANGE}Passenger {}{BLACK}Designed in 1954 for passenger railbus duties
+str_name_diesel_NMBS_SERIES_622_RAILBUS :NMBS/SNCB Series 622 Railbus (Diesel)
 
 #Railbus-electric
 
