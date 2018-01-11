@@ -109,6 +109,8 @@ str_text_emu_NMBS_MS_Classic_livery_green 		: (Green livery, 1939 - 1985)
 str_text_emu_NMBS_MS_Classic_livery_red 		: (Red livery, 1985 - 2000)
 str_text_emu_NMBS_MS_Classic_livery_memling		: (Memling livery, 2000 - ...)
 str_text_emu_NMBS_MS_Classic_livery_automatic	: (Automatic livery updates)
+str_name_emu_NMBS_Type_1935 			:NMBS/SNCB Type 1935 (EMU)
+str_text_emu_NMBS_Type_1935      		:{BLACK}History: {GOLD}These trains were taken into service right before the Brussels International Exposition in 1935. Commonly used in a 4 or 6 carriage setup
 
 #Single Unit Metro
 

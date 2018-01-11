@@ -8,33 +8,33 @@
 
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE emu_NMBS_MS_Classic
-#define ITEM item_emu_NMBS_MS_Classic
-#define NAME string(str_name_emu_NMBS_MS_Classic)
-#define TEXT string(str_text_emu_NMBS_MS_Classic)
+#define VEHIDCODE emu_NMBS_Type_1935
+#define ITEM item_emu_NMBS_Type_1935
+#define NAME string(str_name_emu_NMBS_Type_1935)
+#define TEXT string(str_text_emu_NMBS_Type_1935)
 
 #define VEHICLE_REGION REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
 
-#define INTRODUCTION_YEAR 1939
+#define INTRODUCTION_YEAR 1935
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
-#define VEHICLE_LIFE 25
+#define VEHICLE_LIFE 30
 
 #define LOADINGSPEED LOADINGSPEEDDEF_COMMUTER
 #define CARGODEF CARGODEF_PASSENGERS_ONLY
 
-#define SPEED 140
-#define POWER 735
-#define WEIGHT 100
-#define TE_COEFFICIENT 0.28
+#define SPEED 120
+#define POWER 968
+#define WEIGHT 121
+#define TE_COEFFICIENT 0.3
 #define AIR_DRAG_COEFFICIENT 0
 
 #define LENGTH 8
 #define ACTUAL_LENGTH 8
 #define WAGON_LENGTH 8
 
-#define HEAD_CAPACITY 90
-#define WAGON_CAPACITY 90
+#define HEAD_CAPACITY 84
+#define WAGON_CAPACITY 92
 
 
 #define DUAL_HEADED 1

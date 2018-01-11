@@ -126,6 +126,9 @@
 #include "src/EMU/NMBS_MS_Classic_property.pnml"
 #include "src/EMU/NMBS_MS_Classic_graphics.pnml"
 #include "src/EMU/NMBS_MS_Classic_item.pnml"
+#include "src/EMU/NMBS_Type_1935_property.pnml"
+#include "src/EMU/NMBS_Type_1935_graphics.pnml"
+#include "src/EMU/NMBS_Type_1935_item.pnml"
 
 //Single Unit Metro
 #include "src/_CodeSupport/TypeInitialization/init_type_RBMTRO.pnml"
