@@ -95,6 +95,7 @@ str_name_electric_NMBS_HLE_27 			:NMBS/SNCB HLE 27 (Electric)
 str_name_electric_NMBS_HLE_28 			:NMBS/SNCB HLE 28 (Electric)
 str_name_electric_NMBS_I11_Control_Car  :NMBS/SNCB I11 Control Car
 str_name_electric_NMBS_HLE_18 			:NMBS/SNCB HLE 18 (Electric)
+str_name_electric_NMBS_Type_120			:NMBS/SNCB Type 120 (Electric)
 
 #DMU
 
