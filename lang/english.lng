@@ -94,6 +94,7 @@ str_name_diesel_NMBS_HLD_77 			:NMBS/SNCB HLD 77 (Diesel)
 str_name_electric_NMBS_HLE_27 			:NMBS/SNCB HLE 27 (Electric)
 str_name_electric_NMBS_HLE_28 			:NMBS/SNCB HLE 28 (Electric)
 str_name_electric_NMBS_I11_Control_Car  :NMBS/SNCB I11 Control Car
+str_name_electric_NMBS_HLE_18 			:NMBS/SNCB HLE 18 (Electric)
 
 #DMU
 

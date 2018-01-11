@@ -108,6 +108,9 @@
 #include "src/Electric/NMBS_I11_Control_Car_property.pnml"
 #include "src/Electric/NMBS_I11_Control_Car_graphics.pnml"
 #include "src/Electric/NMBS_I11_Control_Car_item.pnml"
+#include "src/Electric/NMBS_HLE_18_property.pnml"
+#include "src/Electric/NMBS_HLE_18_graphics.pnml"   
+#include "src/Electric/NMBS_HLE_18_item.pnml"
 
 //DMU
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"

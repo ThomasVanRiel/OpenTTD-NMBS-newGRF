@@ -45,8 +45,8 @@ item(FEAT_TRAINS, item_diesel_NMBS_HLD_62, 5202) {}
 #define ID_RANGE_ELECTRIC 0x1770..0x1B57
 item(FEAT_TRAINS, item_electric_NMBS_HLE_27, 6200) {}
 item(FEAT_TRAINS, item_electric_NMBS_HLE_28, 6202) {}
-
 item(FEAT_TRAINS, item_electric_NMBS_I11_Control_Car, 6203) {}
+item(FEAT_TRAINS, item_electric_NMBS_HLE_18, 6204) {}
 
 
 //DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)

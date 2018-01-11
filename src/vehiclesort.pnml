@@ -31,6 +31,7 @@ item_diesel_NMBS_HLD_77, /*Year: 1999*/
 #define SORTING_ELECTRIC \
 item_electric_NMBS_HLE_27, /*Year: 1981*/\
 item_electric_NMBS_HLE_28, /*Year: 2007*/\
+item_electric_NMBS_HLE_18, /*Year: 2009*/\
 item_electric_NMBS_I11_Control_Car, /*Year: 1995*/ 
 
 #define SORTING_DMU \
