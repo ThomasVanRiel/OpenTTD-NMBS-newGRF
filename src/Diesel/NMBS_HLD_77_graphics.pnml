@@ -24,7 +24,7 @@ spriteset(spriteset_diesel_NMBS_HLD_77, "gfx/Diesel/NMBS_HLD_77.png") {
 }
 
 //B-unit
-spriteset(spriteset_diesel_NMBS_HLD_77_B, "gfx/Diesel/NMBS_HLD_77.PNG") {
+spriteset(spriteset_diesel_NMBS_HLD_77_B, "gfx/Diesel/NMBS_HLD_77.png") {
 	template_2cc_engines_general(1, 32)
 }
 

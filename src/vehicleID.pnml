@@ -76,6 +76,8 @@ item(FEAT_TRAINS, item_emu_NMBS_MS_Classic, 8202) {}
 item(FEAT_TRAINS, item_coach_NMBS_I10, 11200) {}
 item(FEAT_TRAINS, item_coach_NMBS_I11, 11201) {}
 item(FEAT_TRAINS, item_coach_NMBS_I1, 11202) {}
+//I2 - 11203
+item(FEAT_TRAINS, item_coach_NMBS_GCI, 11204) {}
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7

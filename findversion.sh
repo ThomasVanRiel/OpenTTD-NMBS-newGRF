@@ -1,3 +1,4 @@
+#!/bin/bash
 #     make-nml NewGRF build framework
 #     (c) 2014 planetmaker and others
 #     Contact: planetmaker@openttd.org

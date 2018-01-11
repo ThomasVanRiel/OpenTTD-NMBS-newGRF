@@ -120,6 +120,7 @@ str_text_emu_NMBS_MS_Classic_livery_automatic	: (Automatic livery updates)
 #wagons
 
 #coaches
+str_name_coach_NMBS_GCI					:NMBS/SNCB GCI Coach
 str_name_coach_NMBS_I1					:NMBS/SNCB I1 Coach
 str_text_coach_NMBS_I1_livery_standard	: (Standard coach)
 str_text_coach_NMBS_I1_livery_first_class   : (First class coach)

@@ -29,22 +29,22 @@ spriteset(spriteset_emu_NMBS_MS_96_back, "gfx/EMU/NMBS_MS_96.png") {
 }
 
 //Middle - PAX - Part 2 regular
-spriteset(spriteset_emu_NMBS_MS_96_middlepass_regular, "gfx/EMU/NMBS_MS_96.PNG") {
+spriteset(spriteset_emu_NMBS_MS_96_middlepass_regular, "gfx/EMU/NMBS_MS_96.png") {
 	template_2cc_engines_general(1, 64)
 }
 
 //Middle - PAX - Part 2 Front
-spriteset(spriteset_emu_NMBS_MS_96_middlepass_part2_front, "gfx/EMU/NMBS_MS_96.PNG") {
+spriteset(spriteset_emu_NMBS_MS_96_middlepass_part2_front, "gfx/EMU/NMBS_MS_96.png") {
 	template_2cc_engines_general(1, 96)
 }
 
 //Middle - PAX - Part 2 Back
-spriteset(spriteset_emu_NMBS_MS_96_middlepass_part2_back, "gfx/EMU/NMBS_MS_96.PNG") {
+spriteset(spriteset_emu_NMBS_MS_96_middlepass_part2_back, "gfx/EMU/NMBS_MS_96.png") {
 	template_2cc_engines_general(1, 128)
 }
 
 //Middle - PAX - Double
-spriteset(spriteset_emu_NMBS_MS_96_middlepass_double, "gfx/EMU/NMBS_MS_96.PNG") {
+spriteset(spriteset_emu_NMBS_MS_96_middlepass_double, "gfx/EMU/NMBS_MS_96.png") {
 	template_2cc_engines_general(1, 160)
 }
 
@@ -64,22 +64,22 @@ switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_96_middlepass_length, [STORE_TEMP(-
 }
 
 //Middle - MAIL - Part 2 regular
-spriteset(spriteset_emu_NMBS_MS_96_middlemail_regular, "gfx/EMU/NMBS_MS_96.PNG") {
+spriteset(spriteset_emu_NMBS_MS_96_middlemail_regular, "gfx/EMU/NMBS_MS_96.png") {
 	template_2cc_engines_general(1, 192)
 }
 
 //Middle - MAIL - Part 2 Front
-spriteset(spriteset_emu_NMBS_MS_96_middlemail_part2_front, "gfx/EMU/NMBS_MS_96.PNG") {
+spriteset(spriteset_emu_NMBS_MS_96_middlemail_part2_front, "gfx/EMU/NMBS_MS_96.png") {
 	template_2cc_engines_general(1, 224)
 }
 
 //Middle - MAIL - Part 2 Back
-spriteset(spriteset_emu_NMBS_MS_96_middlemail_part2_back, "gfx/EMU/NMBS_MS_96.PNG") {
+spriteset(spriteset_emu_NMBS_MS_96_middlemail_part2_back, "gfx/EMU/NMBS_MS_96.png") {
 	template_2cc_engines_general(1, 256)
 }
 
 //Middle - MAIL - Double
-spriteset(spriteset_emu_NMBS_MS_96_middlemail_double, "gfx/EMU/NMBS_MS_96.PNG") {
+spriteset(spriteset_emu_NMBS_MS_96_middlemail_double, "gfx/EMU/NMBS_MS_96.png") {
 	template_2cc_engines_general(1, 288)
 }
 
