@@ -42,8 +42,7 @@ spriteset(spriteset_coach_NMBS_I10_PASS_L4, "gfx/Coaches/NMBS_I10.png") {
 switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I10_PASS_livery, cargo_subtype) {
 	0: spriteset_coach_NMBS_I10_PASS_L1;
 	1: spriteset_coach_NMBS_I10_PASS_L2;
-	2: spriteset_coach_NMBS_I10_PASS_L3;
-	spriteset_coach_NMBS_I10_PASS_L4;
+	spriteset_coach_NMBS_I10_PASS_L3;
 }
 
 //Livery 1 - MAIL
@@ -70,8 +69,7 @@ spriteset(spriteset_coach_NMBS_I10_MAIL_L4, "gfx/Coaches/NMBS_I10.png") {
 switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I10_MAIL_livery, cargo_subtype) {
 	0: spriteset_coach_NMBS_I10_MAIL_L1;
 	1: spriteset_coach_NMBS_I10_MAIL_L2;
-	2: spriteset_coach_NMBS_I10_MAIL_L3;
-	spriteset_coach_NMBS_I10_MAIL_L4;
+	spriteset_coach_NMBS_I10_MAIL_L3;
 }
 
 switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I10_cargo_selection, cargo_classes){
@@ -82,9 +80,8 @@ switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I10_cargo_selection, cargo_classes){
 //cargo subtype
 switch(FEAT_TRAINS, SELF, switch_coach_NMBS_I10_cargo_subtype_text, cargo_subtype) {
     0: return string(str_text_coach_NMBS_I10_livery_standard);
-    1: return string(str_text_coach_NMBS_I10_livery_diner);
-    2: return string(str_text_coach_NMBS_I10_livery_panorama);
-    3: return string(str_text_coach_NMBS_I10_livery_sleeper);
+    1: return string(str_text_coach_NMBS_I10_livery_memling);
+    2: return string(str_text_coach_NMBS_I10_livery_modern);
     return CB_RESULT_NO_TEXT;
 }
 
