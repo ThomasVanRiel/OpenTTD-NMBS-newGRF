@@ -98,8 +98,8 @@ str_name_electric_NMBS_HLE_18 			:NMBS/SNCB HLE 18 (Electric)
 str_name_electric_NMBS_Type_120			:NMBS/SNCB Type 120 (Electric)
 
 #DMU
-
-str_name_dmu_NMBS_MS_41 				:NMBS/SNCB MS 41 (DMU)
+str_name_dmu_NMBS_MS_41 				:NMBS/SNCB MW 41 (DMU)
+str_name_dmu_NMBS_MW_40 				:NMBS/SNCB MW 40 (DMU)
 
 #CargoDMU
 

@@ -56,6 +56,7 @@ item(FEAT_TRAINS, item_electric_NMBS_HLE_18, 6206) {}
 // 7007 free
 // 7034 free
 item(FEAT_TRAINS, item_dmu_NMBS_MS_41, 7200) {}
+item(FEAT_TRAINS, item_dmu_NMBS_MW_40, 7201) {}
 
 
 //EMU, available ID range: 8000-8999 (hex 0x1F40..0x2327)

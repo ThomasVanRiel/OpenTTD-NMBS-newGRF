@@ -120,6 +120,9 @@
 #include "src/DMU/NMBS_MS_41_property.pnml"
 #include "src/DMU/NMBS_MS_41_graphics.pnml"
 #include "src/DMU/NMBS_MS_41_item.pnml"
+#include "src/DMU/NMBS_MW_40_property.pnml"
+#include "src/DMU/NMBS_MW_40_graphics.pnml"
+#include "src/DMU/NMBS_MW_40_item.pnml"
 
 // Cargo DMU 
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
