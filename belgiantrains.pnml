@@ -170,6 +170,12 @@
 
 //wagons
 #include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"
+#include "src/Wagons/BCargo_Shimmns_property.pnml"  
+#include "src/Wagons/BCargo_Shimmns_graphics.pnml"
+#include "src/Wagons/BCargo_Shimmns_item.pnml"
+#include "src/Wagons/BCargo_Uay_property.pnml"  
+#include "src/Wagons/BCargo_Uay_graphics.pnml"
+#include "src/Wagons/BCargo_Uay_item.pnml"
 
 //obsolete vehicles
 

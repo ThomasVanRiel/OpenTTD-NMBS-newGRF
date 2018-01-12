@@ -59,7 +59,9 @@ item_coach_NMBS_I1, /*Year: 1931*/\
 item_coach_NMBS_I10, /*Year: 1987*/\
 item_coach_NMBS_I11, /*Year: 1995*/
 
-#define SORTING_WAGONS 
+#define SORTING_WAGONS \
+item_wagon_BCargo_Shimmns,\
+item_wagon_BCargo_Uay,
 
 #define SORTING_SPECIAL \
 item_mu_wagon_unpowered, \

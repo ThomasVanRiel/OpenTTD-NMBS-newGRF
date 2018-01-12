@@ -85,6 +85,8 @@ item(FEAT_TRAINS, item_coach_NMBS_GCI, 11204) {}
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7
+item(FEAT_TRAINS, item_wagon_BCargo_Shimmns, 12000) {}
+item(FEAT_TRAINS, item_wagon_BCargo_Uay, 12003) {}
 
 //Unit Wagons, available ID range: 13000-13499 (hex 0x32C8..0x34BB)
 #define ID_RANGE_UNIT_WAGONS 0x32C8..0x34BB
