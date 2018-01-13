@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_dmu_NMBS_MW_40, 7201) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_96, 8200) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_Classic, 8202) {}
 item(FEAT_TRAINS, item_emu_NMBS_Type_1935, 8203) {}
+item(FEAT_TRAINS, item_emu_NMBS_MS_75, 8204) {}
 
 
 //Multi Unit Metro, available ID range: 9000-9999 (hex 0x2328..0x270F)

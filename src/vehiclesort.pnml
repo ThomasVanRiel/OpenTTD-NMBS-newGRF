@@ -36,7 +36,7 @@ item_electric_NMBS_HLE_18, /*Year: 2009*/\
 item_electric_NMBS_I11_Control_Car, /*Year: 1995*/ 
 
 #define SORTING_DMU \
-item_dmu_NMBS_MW_40, /*Year: 1961*/ \
+item_dmu_NMBS_MW_40, /*Year: 1961*/\
 item_dmu_NMBS_MS_41, /*Year: 2000*/ 
 
 #define SORTING_CARGODMU 
@@ -44,6 +44,7 @@ item_dmu_NMBS_MS_41, /*Year: 2000*/
 #define SORTING_EMU \
 item_emu_NMBS_Type_1935, /*Year: 1935*/\
 item_emu_NMBS_MS_Classic, /*Year: 1939*/\
+item_emu_NMBS_MS_75, /*Year: 19XX*/\
 item_emu_NMBS_MS_96, /*Year: 1996*/
 
 #define SORTING_SINGLE_METRO 

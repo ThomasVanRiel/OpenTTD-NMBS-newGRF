@@ -10,6 +10,7 @@
 #undef VEHIDCODE 
 #undef ITEM 
 #undef NAME 
+#undef TEXT
 #undef VEHICLE_REGION 
 #undef INTRODUCTION_YEAR 
 #undef MODEL_LIFE 

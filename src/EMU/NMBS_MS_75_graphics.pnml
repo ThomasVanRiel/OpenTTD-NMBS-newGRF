@@ -1,0 +1,65 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* PURCHASE
+*/
+
+spriteset(spriteset_emu_NMBS_MS_75_red_purchase, "gfx/EMU/NMBS_MS_75.png") {
+	template_purchase_dualheaded(179, 128)
+}
+
+/*
+* VEHICLE
+*/
+
+//RED
+//Front
+spriteset(spriteset_emu_NMBS_MS_75_red_front, "gfx/EMU/NMBS_MS_75.png") {
+	template_2cc_engines_general(179, 1)
+}
+
+//Back
+spriteset(spriteset_emu_NMBS_MS_75_red_back, "gfx/EMU/NMBS_MS_75.png") {
+	template_2cc_engines_general(179, 32)
+}
+
+//Middle
+spriteset(spriteset_emu_NMBS_MS_75_red_middle, "gfx/EMU/NMBS_MS_75.png") {
+	template_2cc_engines_general(179, 64)
+}
+
+//Dualheaded engines
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_75_reversed, var[0xC8]) {
+	0xFE: spriteset_emu_NMBS_MS_75_red_back;
+    0xFF: spriteset_emu_NMBS_MS_75_red_back; 
+    spriteset_emu_NMBS_MS_75_red_front;
+}
+
+//Visual effect, for EMU this is done on the part with the pantograph
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_75_visual_effect_and_powered, var[0xC8]) {
+	0xFE: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+	0xFF: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+	visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+	
+/*
+* Cargo capacity
+*/
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+WAGONCAPACITYSWITCH(VEHIDCODE)
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH
