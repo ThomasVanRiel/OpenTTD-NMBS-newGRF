@@ -10,10 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_steam_NMBS_Type_29) {
+item(FEAT_TRAINS, ITEM) {
     property {
 		name: NAME;
-		VEHICLE_REGION
         INTRODUCTIONDATEPROPERTY
         model_life: 					MODEL_LIFE;
         vehicle_life: 					VEHICLE_LIFE;

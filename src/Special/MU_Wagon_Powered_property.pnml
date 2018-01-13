@@ -12,7 +12,6 @@
 #define ITEM item_mu_wagon_powered
 #define NAME string(str_name_mu_wagon_powered)
 
-#define VEHICLE_REGION REGION(ALLREGION,NOREGION,NOCONCEPT)
 
 #define INTRODUCTION_YEAR 1908
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

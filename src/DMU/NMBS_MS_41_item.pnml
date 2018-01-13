@@ -9,7 +9,6 @@
 item(FEAT_TRAINS, ITEM ) {
 	property {
 		name: NAME;
-		VEHICLE_REGION
 		INTRODUCTIONDATEPROPERTY
 		model_life: MODEL_LIFE;
 		vehicle_life: VEHICLE_LIFE; 
