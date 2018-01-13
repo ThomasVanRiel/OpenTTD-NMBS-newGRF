@@ -98,8 +98,8 @@ str_name_electric_NMBS_HLE_18 			:NMBS/SNCB HLE 18 (Electric)
 str_name_electric_NMBS_Type_120			:NMBS/SNCB Type 120 (Electric)
 
 #DMU
-
-str_name_dmu_NMBS_MS_41 				:NMBS/SNCB MS 41 (DMU)
+str_name_dmu_NMBS_MS_41 				:NMBS/SNCB MW 41 (DMU)
+str_name_dmu_NMBS_MW_40 				:NMBS/SNCB MW 40 (DMU)
 
 #CargoDMU
 
@@ -112,7 +112,8 @@ str_text_emu_NMBS_MS_Classic_livery_red 		: (Red livery, 1985 - 2000)
 str_text_emu_NMBS_MS_Classic_livery_memling		: (Memling livery, 2000 - ...)
 str_text_emu_NMBS_MS_Classic_livery_automatic	: (Automatic livery updates)
 str_name_emu_NMBS_Type_1935 			:NMBS/SNCB Type 1935 (EMU)
-str_text_emu_NMBS_Type_1935      		:{BLACK}History: {GOLD}These trains were taken into service right before the Brussels International Exposition in 1935. Commonly used in a 4 or 6 carriage setup
+str_text_emu_NMBS_Type_1935      		:{BLACK}History: {GOLD}These trains were taken into service right before the Brussels International Exposition in 1935. Typically used in a 4 or 6 carriage configuration.
+str_name_emu_NMBS_MS_75 				:NMBS/SNCB MS 75 (EMU)
 
 #Single Unit Metro
 
@@ -122,7 +123,9 @@ str_text_emu_NMBS_Type_1935      		:{BLACK}History: {GOLD}These trains were take
 
 #Maglev
 
-#wagons
+#Wagons
+str_name_wagon_BCargo_Shimmns           :B-Cargo Covered Wagon (Shimmns)
+str_name_wagon_BCargo_Uay               :B-Cargo Tanker (Uay)
 
 #coaches
 str_name_coach_NMBS_GCI					:NMBS/SNCB GCI Coach

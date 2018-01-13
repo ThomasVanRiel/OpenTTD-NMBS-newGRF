@@ -56,6 +56,7 @@ item(FEAT_TRAINS, item_electric_NMBS_HLE_18, 6206) {}
 // 7007 free
 // 7034 free
 item(FEAT_TRAINS, item_dmu_NMBS_MS_41, 7200) {}
+item(FEAT_TRAINS, item_dmu_NMBS_MW_40, 7201) {}
 
 
 //EMU, available ID range: 8000-8999 (hex 0x1F40..0x2327)
@@ -63,6 +64,7 @@ item(FEAT_TRAINS, item_dmu_NMBS_MS_41, 7200) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_96, 8200) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_Classic, 8202) {}
 item(FEAT_TRAINS, item_emu_NMBS_Type_1935, 8203) {}
+item(FEAT_TRAINS, item_emu_NMBS_MS_75, 8204) {}
 
 
 //Multi Unit Metro, available ID range: 9000-9999 (hex 0x2328..0x270F)
@@ -85,6 +87,8 @@ item(FEAT_TRAINS, item_coach_NMBS_GCI, 11204) {}
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7
+item(FEAT_TRAINS, item_wagon_BCargo_Shimmns, 12000) {}
+item(FEAT_TRAINS, item_wagon_BCargo_Uay, 12003) {}
 
 //Unit Wagons, available ID range: 13000-13499 (hex 0x32C8..0x34BB)
 #define ID_RANGE_UNIT_WAGONS 0x32C8..0x34BB

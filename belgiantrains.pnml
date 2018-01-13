@@ -118,6 +118,9 @@
 #include "src/DMU/NMBS_MS_41_property.pnml"
 #include "src/DMU/NMBS_MS_41_graphics.pnml"
 #include "src/DMU/NMBS_MS_41_item.pnml"
+#include "src/DMU/NMBS_MW_40_property.pnml"
+#include "src/DMU/NMBS_MW_40_graphics.pnml"
+#include "src/DMU/NMBS_MW_40_item.pnml"
 
 // Cargo DMU 
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
@@ -133,6 +136,9 @@
 #include "src/EMU/NMBS_Type_1935_property.pnml"
 #include "src/EMU/NMBS_Type_1935_graphics.pnml"
 #include "src/EMU/NMBS_Type_1935_item.pnml"
+#include "src/EMU/NMBS_MS_75_property.pnml"
+#include "src/EMU/NMBS_MS_75_graphics.pnml"
+#include "src/EMU/NMBS_MS_75_item.pnml"
 
 //Single Unit Metro
 #include "src/_CodeSupport/TypeInitialization/init_type_RBMTRO.pnml"
@@ -168,6 +174,12 @@
 
 //wagons
 #include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"
+#include "src/Wagons/BCargo_Shimmns_property.pnml"  
+#include "src/Wagons/BCargo_Shimmns_graphics.pnml"
+#include "src/Wagons/BCargo_Shimmns_item.pnml"
+#include "src/Wagons/BCargo_Uay_property.pnml"  
+#include "src/Wagons/BCargo_Uay_graphics.pnml"
+#include "src/Wagons/BCargo_Uay_item.pnml"
 
 //obsolete vehicles
 

@@ -77,6 +77,7 @@ grf {
 			type:	bool;
 			name:	string(str_param_disable_default_veh);
 			desc:	string(str_param_disable_default_veh_desc);
+			def_value: 1;
         	bit:  	0;
 		}
 	}
