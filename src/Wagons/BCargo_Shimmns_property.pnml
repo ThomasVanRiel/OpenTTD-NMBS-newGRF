@@ -12,8 +12,6 @@
 #define ITEM item_wagon_BCargo_Shimmns
 #define NAME string(str_name_wagon_BCargo_Shimmns)
 
-#define VEHICLE_REGION REGION(AMERICA,OCEANIA,NOCONCEPT)
-
 #define INTRODUCTION_YEAR 0
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
