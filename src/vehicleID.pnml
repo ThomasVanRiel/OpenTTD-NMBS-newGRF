@@ -31,6 +31,7 @@ item(FEAT_TRAINS, item_diesel_NMBS_SERIES_622_RAILBUS, 2001) {}
 // 4048 free
 item(FEAT_TRAINS, item_steam_NMBS_Type_12, 4005) {}
 item(FEAT_TRAINS, item_steam_NMBS_Type_29, 4009) {}
+item(FEAT_TRAINS, item_steam_NMVB_Type_12, 4020) {}
 
 //Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
 #define ID_RANGE_DIESEL 0x1388..0x176F
@@ -84,11 +85,13 @@ item(FEAT_TRAINS, item_coach_NMBS_I11, 11201) {}
 item(FEAT_TRAINS, item_coach_NMBS_I1, 11202) {}
 //I2 - 11203
 item(FEAT_TRAINS, item_coach_NMBS_GCI, 11204) {}
+item(FEAT_TRAINS, item_coach_NMVB_Generic, 11210) {}
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7
 item(FEAT_TRAINS, item_wagon_BCargo_Shimmns, 12000) {}
 item(FEAT_TRAINS, item_wagon_BCargo_Uay, 12003) {}
+item(FEAT_TRAINS, item_wagon_NMVB_Generic_Freight, 12006) {}
 
 //Unit Wagons, available ID range: 13000-13499 (hex 0x32C8..0x34BB)
 #define ID_RANGE_UNIT_WAGONS 0x32C8..0x34BB

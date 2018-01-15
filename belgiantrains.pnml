@@ -84,6 +84,9 @@
 #include "src/Steam/NMBS_Type_29_property.pnml"
 #include "src/Steam/NMBS_Type_29_graphics.pnml"
 #include "src/Steam/NMBS_Type_29_item.pnml"
+#include "src/Steam/NMVB_Type_12_property.pnml"
+#include "src/Steam/NMVB_Type_12_graphics.pnml"
+#include "src/Steam/NMVB_Type_12_item.pnml"
 
 
 //Diesel
@@ -169,6 +172,9 @@
 #include "src/Coaches/NMBS_GCI_property.pnml"
 #include "src/Coaches/NMBS_GCI_graphics.pnml"
 #include "src/Coaches/NMBS_GCI_item.pnml"
+#include "src/Coaches/NMVB_Generic_property.pnml"
+#include "src/Coaches/NMVB_Generic_graphics.pnml"
+#include "src/Coaches/NMVB_Generic_item.pnml"
 
 
 
@@ -180,6 +186,9 @@
 #include "src/Wagons/BCargo_Uay_property.pnml"  
 #include "src/Wagons/BCargo_Uay_graphics.pnml"
 #include "src/Wagons/BCargo_Uay_item.pnml"
+#include "src/Wagons/NMVB_Generic_Freight_property.pnml"  
+#include "src/Wagons/NMVB_Generic_Freight_graphics.pnml"
+#include "src/Wagons/NMVB_Generic_Freight_item.pnml"
 
 //obsolete vehicles
 
