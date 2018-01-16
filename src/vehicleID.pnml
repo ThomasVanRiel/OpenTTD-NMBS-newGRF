@@ -29,6 +29,7 @@ item(FEAT_TRAINS, item_diesel_NMBS_SERIES_622_RAILBUS, 2001) {}
 //4030 free
 //4032 free
 // 4048 free
+item(FEAT_TRAINS, item_steam_NMBS_Type_7, 4003) {}
 item(FEAT_TRAINS, item_steam_NMBS_Type_12, 4005) {}
 item(FEAT_TRAINS, item_steam_NMBS_Type_29, 4009) {}
 item(FEAT_TRAINS, item_steam_NMVB_Type_12, 4020) {}

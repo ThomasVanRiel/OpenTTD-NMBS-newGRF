@@ -22,6 +22,7 @@ item_diesel_NMBS_CLASS_42_RAILBUS,  /*Year: 1954*/
 
 #define SORTING_STEAM \
 item_steam_NMVB_Type_12, /*Year: 1894*/\
+item_steam_NMBS_Type_7, /*Year: 1921*/\
 item_steam_NMBS_Type_12, /*Year: 1939*/\
 item_steam_NMBS_Type_29, /*Year: 1946*/ 
 

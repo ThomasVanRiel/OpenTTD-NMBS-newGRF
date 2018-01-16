@@ -87,6 +87,9 @@
 #include "src/Steam/NMVB_Type_12_property.pnml"
 #include "src/Steam/NMVB_Type_12_graphics.pnml"
 #include "src/Steam/NMVB_Type_12_item.pnml"
+#include "src/Steam/NMBS_Type_7_property.pnml"
+#include "src/Steam/NMBS_Type_7_graphics.pnml"
+#include "src/Steam/NMBS_Type_7_item.pnml"
 
 
 //Diesel

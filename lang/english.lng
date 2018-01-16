@@ -1,4 +1,4 @@
-﻿##grflangid 0x01
+##grflangid 0x01
 
 #Main grf title and description
 STR_GRF_NAME			:{TITLE}
@@ -81,6 +81,7 @@ str_name_diesel_NMBS_SERIES_622_RAILBUS :NMBS/SNCB Series 622 Railbus (Diesel)
 
 
 #Steam
+str_name_steam_NMBS_Type_7 			    :NMBS/SNCB Type 7 (Steam)
 str_name_steam_NMBS_Type_12 			:NMBS/SNCB Type 12 (Steam)
 str_name_steam_NMBS_Type_29             :NMBS/SNCB Type 29 (Steam)
 str_text_steam_NMBS_Type_29			    :Usage : {ORANGE}Freight or Passenger 
