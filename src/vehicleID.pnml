@@ -51,6 +51,7 @@ item(FEAT_TRAINS, item_electric_NMBS_I11_Control_Car, 6203) {}
 // Type 101 6204
 item(FEAT_TRAINS, item_electric_NMBS_Type_120, 6205) {}
 item(FEAT_TRAINS, item_electric_NMBS_HLE_18, 6206) {}
+item(FEAT_TRAINS, item_electric_NMBS_HLE_16, 6207) {}
 
 
 //DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)
@@ -67,6 +68,7 @@ item(FEAT_TRAINS, item_emu_NMBS_MS_96, 8200) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_Classic, 8202) {}
 item(FEAT_TRAINS, item_emu_NMBS_Type_1935, 8203) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_75, 8204) {}
+item(FEAT_TRAINS, item_emu_NMBS_Thalys_PBKA, 8300) {}
 
 
 //Multi Unit Metro, available ID range: 9000-9999 (hex 0x2328..0x270F)
@@ -75,6 +77,7 @@ item(FEAT_TRAINS, item_emu_NMBS_MS_75, 8204) {}
 //9001 free
 //9003 free
 //9005 free
+item(FEAT_TRAINS, item_emu_MIVB_M1_Metro, 9200) {}
 
 //Multi Unit Maglev, available ID range: 10000-10499 (hex 0x2710..0x2903)
 #define ID_RANGE_MULTIMAGLEV 0x2710..0x2903
@@ -84,7 +87,7 @@ item(FEAT_TRAINS, item_emu_NMBS_MS_75, 8204) {}
 item(FEAT_TRAINS, item_coach_NMBS_I10, 11200) {}
 item(FEAT_TRAINS, item_coach_NMBS_I11, 11201) {}
 item(FEAT_TRAINS, item_coach_NMBS_I1, 11202) {}
-//I2 - 11203
+item(FEAT_TRAINS, item_coach_NMBS_I4, 11203) {}
 item(FEAT_TRAINS, item_coach_NMBS_GCI, 11204) {}
 item(FEAT_TRAINS, item_coach_NMVB_Generic, 11210) {}
 

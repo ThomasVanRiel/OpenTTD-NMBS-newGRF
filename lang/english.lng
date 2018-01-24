@@ -29,24 +29,6 @@ STR_PARAM_TIMES_16                  :16
 #region parameters
 STR_PARAM_CONCEPT						:Concept vehicles
 STR_PARAM_CONCEPT_DESC					:Use concept vehicles
-STR_PARAM_REGION_AFRICA					:Africa
-STR_PARAM_REGION_AFRICA_DESC			:Use vehicles from Africa
-STR_PARAM_REGION_NORTHAMERICA			:North America
-STR_PARAM_REGION_NORTHAMERICA_DESC		:Use vehicles from North America
-STR_PARAM_REGION_SOUTHAMERICA			:South America
-STR_PARAM_REGION_SOUTHAMERICA_DESC		:Use vehicles from South America
-STR_PARAM_REGION_ASIA					:Asia
-STR_PARAM_REGION_ASIA_DESC				:Use vehicles from Asia
-STR_PARAM_REGION_NORTHERNEUROPE			:Northern Europe
-STR_PARAM_REGION_NORTHERNEUROPE_DESC	:Use vehicles from Northern Europe
-STR_PARAM_REGION_EASTERNEUROPE			:Eastern Europe
-STR_PARAM_REGION_EASTERNEUROPE_DESC		:Use vehicles from Eastern Europe
-STR_PARAM_REGION_SOUTHERNEUROPE			:Southern Europe
-STR_PARAM_REGION_SOUTHERNEUROPE_DESC	:Use vehicles from Southern Europe
-STR_PARAM_REGION_WESTERNEUROPE			:Western Europe
-STR_PARAM_REGION_WESTERNEUROPE_DESC		:Use vehicles from Western Europe
-STR_PARAM_REGION_OCEANIA				:Oceania
-STR_PARAM_REGION_OCEANIA_DESC			:Use vehicles from Oceania
 
 #loading speed parameter
 STR_PARAM_LOADINGSPEED					:Loading speed
@@ -98,6 +80,7 @@ str_name_electric_NMBS_HLE_27 			:NMBS/SNCB HLE 27 (Electric)
 str_name_electric_NMBS_HLE_28 			:NMBS/SNCB HLE 28 (Electric)
 str_name_electric_NMBS_I11_Control_Car  :NMBS/SNCB I11 Control Car
 str_name_electric_NMBS_HLE_18 			:NMBS/SNCB HLE 18 (Electric)
+str_name_electric_NMBS_HLE_16 			:NMBS/SNCB HLE 16 (Electric)
 str_name_electric_NMBS_Type_120			:NMBS/SNCB Type 120 (Electric)
 
 #DMU
@@ -117,10 +100,12 @@ str_text_emu_NMBS_MS_Classic_livery_automatic	: (Automatic livery updates)
 str_name_emu_NMBS_Type_1935 			:NMBS/SNCB Type 1935 (EMU)
 str_text_emu_NMBS_Type_1935      		:{BLACK}History: {GOLD}These trains were taken into service right before the Brussels International Exposition in 1935. Typically used in a 4 or 6 carriage configuration.
 str_name_emu_NMBS_MS_75 				:NMBS/SNCB MS 75 (EMU)
+str_name_emu_NMBS_Thalys_PBKA 			:NMBS/SNCB Thalys PBKA (EMU)
 
 #Single Unit Metro
 
 #Multiple Unit Metro
+str_name_emu_MIVB_M1_Metro 			    :MIVB/STIB M1 Metro
 
 #Maglev railbus
 
@@ -137,10 +122,15 @@ str_name_coach_NMBS_I1					:NMBS/SNCB I1 Coach
 str_text_coach_NMBS_I1_livery_standard	: (Standard coach)
 str_text_coach_NMBS_I1_livery_first_class   : (First class coach)
 str_name_coach_NMBS_I10					:NMBS/SNCB I10 Coach
-str_text_coach_NMBS_I10_livery_standard	: (Orange)
+str_text_coach_NMBS_I10_livery_standard	: (Eurofima)
 str_text_coach_NMBS_I10_livery_memling	: (Memling)
 str_text_coach_NMBS_I10_livery_modern	: (Modern White)
 str_name_coach_NMVB_Generic				:NMVB/SNCV Passenger Coach
+str_name_coach_NMBS_I4					:NMBS/SNCB I4 Coach
+str_text_coach_NMBS_I4_livery_standard	: (Green)
+str_text_coach_NMBS_I4_livery_memling	: (Memling)
+str_text_coach_NMBS_I4_livery_benelux	: (Benelux)
+str_text_coach_NMBS_I4_livery_eurofima	: (Eurofima)
 
 str_name_coach_NMBS_I11					:NMBS/SNCB I11 Coach
 str_text_coach_NMBS_I11_livery_front	: (Front coach)
@@ -148,14 +138,14 @@ str_text_coach_NMBS_I11_livery_middle	: (Middle coach)
 str_text_coach_NMBS_I11_livery_back		: (Back coach)
 
 #special wagons
-str_name_mu_wagon_unpowered			:NMBS/SNCB Multiple Unit Wagon (Unpowered)
-str_name_mu_wagon_powered			:NMBS/SNCB Multiple Unit Wagon (Powered)
+str_name_mu_wagon_unpowered			:Multiple Unit Wagon (Unpowered)
+str_name_mu_wagon_powered			:Multiple Unit Wagon (Powered)
 
 #Obsolete vehicles
 
 #PURCHASE MENU TEXTS
-str_unit_wagon_passenger		:This generic wagon can ONLY be used with NMBS/SNCB passenger MUs to create trains of the desired length
-str_unit_wagon_cargo			:This generic wagon can ONLY be used with NMBS/SNCB cargo MUs to create trains of the desired length
+str_unit_wagon_passenger		:This generic wagon can ONLY be used with passenger MUs to create trains of the desired length
+str_unit_wagon_cargo			:This generic wagon can ONLY be used with cargo MUs to create trains of the desired length
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU					:Cannot attach wagon to Multiple Unit engine

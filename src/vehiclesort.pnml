@@ -32,6 +32,7 @@ item_diesel_NMBS_HLD_77, /*Year: 1999*/
 
 #define SORTING_ELECTRIC \
 item_electric_NMBS_Type_120, /*Year: 1949*/\
+item_electric_NMBS_HLE_16, /*Year: 1966*/\
 item_electric_NMBS_HLE_27, /*Year: 1981*/\
 item_electric_NMBS_HLE_28, /*Year: 2007*/\
 item_electric_NMBS_HLE_18, /*Year: 2009*/\
@@ -47,11 +48,13 @@ item_dmu_NMBS_MS_41, /*Year: 2000*/
 item_emu_NMBS_Type_1935, /*Year: 1935*/\
 item_emu_NMBS_MS_Classic, /*Year: 1939*/\
 item_emu_NMBS_MS_75, /*Year: 1975*/\
-item_emu_NMBS_MS_96, /*Year: 1996*/
+item_emu_NMBS_MS_96, /*Year: 1996*/\
+item_emu_NMBS_Thalys_PBKA, /*Year: 1998*/
 
 #define SORTING_SINGLE_METRO 
 
-#define SORTING_METRO 
+#define SORTING_METRO \
+item_emu_MIVB_M1_Metro, /*Year: 1974*/
 
 #define SORTING_SINGLE_MAGLEV 
 
@@ -61,6 +64,7 @@ item_emu_NMBS_MS_96, /*Year: 1996*/
 item_coach_NMVB_Generic, /*Year: 1884*/\
 item_coach_NMBS_GCI, /*Year: 1890*/\
 item_coach_NMBS_I1, /*Year: 1931*/\
+item_coach_NMBS_I4, /*Year: 1966*/\
 item_coach_NMBS_I10, /*Year: 1987*/\
 item_coach_NMBS_I11, /*Year: 1995*/
 

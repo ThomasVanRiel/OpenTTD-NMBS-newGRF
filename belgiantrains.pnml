@@ -118,6 +118,9 @@
 #include "src/Electric/NMBS_Type_120_property.pnml"
 #include "src/Electric/NMBS_Type_120_graphics.pnml"   
 #include "src/Electric/NMBS_Type_120_item.pnml"
+#include "src/Electric/NMBS_HLE_16_property.pnml"
+#include "src/Electric/NMBS_HLE_16_graphics.pnml"   
+#include "src/Electric/NMBS_HLE_16_item.pnml"
 
 //DMU
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
@@ -145,15 +148,18 @@
 #include "src/EMU/NMBS_MS_75_property.pnml"
 #include "src/EMU/NMBS_MS_75_graphics.pnml"
 #include "src/EMU/NMBS_MS_75_item.pnml"
+#include "src/EMU/NMBS_Thalys_PBKA_property.pnml"
+#include "src/EMU/NMBS_Thalys_PBKA_graphics.pnml"
+#include "src/EMU/NMBS_Thalys_PBKA_item.pnml"
 
 //Single Unit Metro
 #include "src/_CodeSupport/TypeInitialization/init_type_RBMTRO.pnml"
 
-
-
 //Multiple Unit Metro
 #include "src/_CodeSupport/TypeInitialization/init_type_Metro.pnml"
-
+#include "src/Metro/MIVB_M1_Metro_property.pnml"
+#include "src/Metro/MIVB_M1_Metro_graphics.pnml"
+#include "src/Metro/MIVB_M1_Metro_item.pnml"
 
 // Single unit maglev
 #include "src/_CodeSupport/TypeInitialization/init_type_RBMGLV.pnml"
@@ -178,7 +184,9 @@
 #include "src/Coaches/NMVB_Generic_property.pnml"
 #include "src/Coaches/NMVB_Generic_graphics.pnml"
 #include "src/Coaches/NMVB_Generic_item.pnml"
-
+#include "src/Coaches/NMBS_I4_property.pnml"
+#include "src/Coaches/NMBS_I4_graphics.pnml"
+#include "src/Coaches/NMBS_I4_item.pnml"
 
 
 //wagons
