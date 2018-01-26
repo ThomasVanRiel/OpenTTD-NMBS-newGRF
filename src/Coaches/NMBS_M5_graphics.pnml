@@ -1,0 +1,53 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU Gen4eral Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Gen4eral Public License for more details.
+ *  You should have received a copy of the GNU Gen4eral Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* PURCHASE
+*/
+
+spriteset(spriteset_coach_NMBS_M5_purchase, "gfx/Coaches/NMBS_M5.png") {
+	template_purchase(1, 128)
+}
+
+/*
+* Vehicle
+*/
+
+//Livery 1 - Original red
+spriteset(spriteset_coach_NMBS_M5_PASS_L1, "gfx/Coaches/NMBS_M5.png") {
+	template_2cc_wagons(1, 1)
+}
+
+/*
+* //Livery 2 - Modern white
+* spriteset(spriteset_coach_NMBS_M5_PASS_L2, "gfx/Coaches/NMBS_M5.png") {
+* 	template_2cc_wagons(179, 1)
+* }
+* 
+* switch(FEAT_TRAINS, SELF, switch_coach_NMBS_M5_PASS_livery, cargo_subtype) {
+* 	0: spriteset_coach_NMBS_M5_PASS_L1;
+* 	spriteset_coach_NMBS_M5_PASS_L2;
+* }
+* 
+* switch(FEAT_TRAINS, SELF, switch_coach_NMBS_M5_cargo_selection, cargo_classes) {
+* 	bitmask(CC_PASSENGERS): switch_coach_NMBS_M5_PASS_livery;
+* }
+* 
+* //cargo subtype
+* switch(FEAT_TRAINS, SELF, switch_coach_NMBS_M5_cargo_subtype_text, cargo_subtype) {
+*     0: return string(str_text_coach_NMBS_M5_livery_standard);
+*     1: return string(str_text_coach_NMBS_M5_livery_modern);
+*     return CB_RESULT_NO_TEXT;
+* }
+*/
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

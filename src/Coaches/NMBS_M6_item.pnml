@@ -42,33 +42,12 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_emu_NMBS_Type_1935_purchase;
-		additional_text: TEXT;
-		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
-		visual_effect_and_powered: switch_emu_NMBS_Type_1935_visual_effect_and_powered;
-		can_attach_wagon: switch_can_attach_vehicle;
+		purchase: spriteset_coach_NMBS_M6_purchase;
+		//cargo_subtype_text: switch_coach_NMBS_M6_cargo_subtype_text;
+		
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
-
-		default: switch_emu_NMBS_Type_1935_reversed;
-	}
-	livery_override (item_mu_wagon_unpowered ) {
-		LOADINGSPEEDPROPERTY
-		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
-		weight: WEIGHTMUWAGONUNPOWERED
-		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
-		length: WAGON_LENGTH;
-		default: switch_emu_NMBS_Type_1935_middle_livery;
-	}
-	livery_override (item_mu_wagon_powered ) {
-		LOADINGSPEEDPROPERTY
-		RUNNINGCOSTMUWAGONPOWEREDSWITCHCALL
-		power: POWERMUWAGONPOWERED
-		weight: WEIGHTMUWAGONPOWERED
-		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
-		tractive_effort_coefficient: TEMUWAGONPOWERED
-		length: WAGON_LENGTH;
-		default: switch_emu_NMBS_Type_1935_middle_livery;
+		default: spriteset_coach_NMBS_M6_PASS_L1;
 	}
 }

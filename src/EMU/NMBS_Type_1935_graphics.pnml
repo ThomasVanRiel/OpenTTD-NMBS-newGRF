@@ -18,6 +18,7 @@ spriteset(spriteset_emu_NMBS_Type_1935_purchase, "gfx/EMU/NMBS_Type_1935.png") {
 * VEHICLE
 */
 
+// Passengers
 //Front
 spriteset(spriteset_emu_NMBS_Type_1935_front, "gfx/EMU/NMBS_Type_1935.png") {
 	template_2cc_engines_general(1, 1)
@@ -33,14 +34,47 @@ spriteset(spriteset_emu_NMBS_Type_1935_middle, "gfx/EMU/NMBS_Type_1935.png") {
 	template_2cc_engines_general(1, 64)
 }
 
+// Mail
+//Front
+spriteset(spriteset_emu_NMBS_Type_1935_mail_front, "gfx/EMU/NMBS_Type_1935.png") {
+	template_2cc_engines_general(179, 1)
+}
+
+//Back
+spriteset(spriteset_emu_NMBS_Type_1935_mail_back, "gfx/EMU/NMBS_Type_1935.png") {
+	template_2cc_engines_general(179, 32)
+}
+
+//Middle
+spriteset(spriteset_emu_NMBS_Type_1935_mail_middle, "gfx/EMU/NMBS_Type_1935.png") {
+	template_2cc_engines_general(179, 64)
+}
+
+//Livery switch
+//Front
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_Type_1935_front_livery, cargo_classes) {
+	bitmask(CC_PASSENGERS): spriteset_emu_NMBS_Type_1935_front;
+	spriteset_emu_NMBS_Type_1935_mail_front;
+}
+
+//Back
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_Type_1935_back_livery, cargo_classes) {
+	bitmask(CC_PASSENGERS): spriteset_emu_NMBS_Type_1935_back;
+	spriteset_emu_NMBS_Type_1935_mail_back;
+}
+
+//Middle
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_Type_1935_middle_livery, cargo_classes) {
+	bitmask(CC_PASSENGERS): spriteset_emu_NMBS_Type_1935_middle;
+	spriteset_emu_NMBS_Type_1935_mail_middle;
+}
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_Type_1935_reversed, var[0xC8]) {
-	0xFE: spriteset_emu_NMBS_Type_1935_back;
-    0xFF: spriteset_emu_NMBS_Type_1935_back; 
-    spriteset_emu_NMBS_Type_1935_front;
+	0xFE: switch_emu_NMBS_Type_1935_back_livery;
+    0xFF: switch_emu_NMBS_Type_1935_back_livery; 
+    switch_emu_NMBS_Type_1935_front_livery;
 }
-
 
 //Visual effect, for EMU this is done on the part with the pantograph
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_Type_1935_visual_effect_and_powered, var[0xC8]) {

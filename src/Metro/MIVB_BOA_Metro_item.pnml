@@ -33,7 +33,7 @@ item(FEAT_TRAINS, ITEM ) {
 		running_cost_base: RUNNING_COST_BASE;
 		engine_class: ENGINE_CLASS;
 		visual_effect_and_powered: VISUAL_FLAG;
-		climates_available: 			ALL_CLIMATES;
+		climates_available: ALL_CLIMATES;
 		
 		sprite_id: SPRITE_ID;
 		dual_headed: DUAL_HEADED;
@@ -42,16 +42,13 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_emu_NMBS_Type_1935_purchase;
-		additional_text: TEXT;
+		purchase: spriteset_emu_MIVB_BOA_Metro_purchase;
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
-		visual_effect_and_powered: switch_emu_NMBS_Type_1935_visual_effect_and_powered;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
-
-		default: switch_emu_NMBS_Type_1935_reversed;
+		default: switch_emu_MIVB_BOA_Metro_reversed;
 	}
 	livery_override (item_mu_wagon_unpowered ) {
 		LOADINGSPEEDPROPERTY
@@ -59,7 +56,7 @@ item(FEAT_TRAINS, ITEM ) {
 		weight: WEIGHTMUWAGONUNPOWERED
 		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		length: WAGON_LENGTH;
-		default: switch_emu_NMBS_Type_1935_middle_livery;
+		default: spriteset_emu_MIVB_BOA_Metro_middle;
 	}
 	livery_override (item_mu_wagon_powered ) {
 		LOADINGSPEEDPROPERTY
@@ -69,6 +66,6 @@ item(FEAT_TRAINS, ITEM ) {
 		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		tractive_effort_coefficient: TEMUWAGONPOWERED
 		length: WAGON_LENGTH;
-		default: switch_emu_NMBS_Type_1935_middle_livery;
+		default: spriteset_emu_MIVB_BOA_Metro_middle;
 	}
 }

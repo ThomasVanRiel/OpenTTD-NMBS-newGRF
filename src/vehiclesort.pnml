@@ -54,7 +54,8 @@ item_emu_NMBS_Thalys_PBKA, /*Year: 1998*/
 #define SORTING_SINGLE_METRO 
 
 #define SORTING_METRO \
-item_emu_MIVB_M1_Metro, /*Year: 1974*/
+item_emu_MIVB_M1_Metro, /*Year: 1974*/\
+item_emu_MIVB_BOA_Metro, /*Year: 2007*/
 
 #define SORTING_SINGLE_MAGLEV 
 
@@ -66,7 +67,9 @@ item_coach_NMBS_GCI, /*Year: 1890*/\
 item_coach_NMBS_I1, /*Year: 1931*/\
 item_coach_NMBS_I4, /*Year: 1966*/\
 item_coach_NMBS_I10, /*Year: 1987*/\
-item_coach_NMBS_I11, /*Year: 1995*/
+item_coach_NMBS_I11, /*Year: 1995*/\
+item_coach_NMBS_M5, /*Year: 1966*/\
+item_coach_NMBS_M6, /*Year: 2000*/
 
 #define SORTING_WAGONS \
 item_wagon_NMVB_Generic_Freight,\

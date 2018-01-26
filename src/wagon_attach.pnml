@@ -56,7 +56,7 @@ switch(FEAT_TRAINS, PARENT, switch_can_attach_unit_rail, [STORE_TEMP(position_in
 	ID_RANGE_ELECTRIC: string(str_cannot_attach_Unit_wagon_to_engine); //Electric, disallow
 	ID_RANGE_DMU: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //DMU, allow
 	ID_RANGE_EMU: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //EMU, allow
-	ID_RANGE_MULTIMETRO: CB_RESULT_ATTACH_DISALLOW; //Multi Unit Metro, disallow
+	ID_RANGE_MULTIMETRO: CB_RESULT_ATTACH_ALLOW; //Multi Unit Metro, allow
 	ID_RANGE_MULTIMAGLEV: CB_RESULT_ATTACH_DISALLOW; //Multi Unit Maglev, disallow
 	ID_RANGE_COACHES: string(str_cannot_attach_Unit_wagon_to_wagon); //Coaches, disallow
 	ID_RANGE_WAGONS: string(str_cannot_attach_Unit_wagon_to_wagon); //Wagons, disallow

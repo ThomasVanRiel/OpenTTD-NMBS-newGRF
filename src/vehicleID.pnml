@@ -78,6 +78,7 @@ item(FEAT_TRAINS, item_emu_NMBS_Thalys_PBKA, 8300) {}
 //9003 free
 //9005 free
 item(FEAT_TRAINS, item_emu_MIVB_M1_Metro, 9200) {}
+item(FEAT_TRAINS, item_emu_MIVB_BOA_Metro, 9201) {}
 
 //Multi Unit Maglev, available ID range: 10000-10499 (hex 0x2710..0x2903)
 #define ID_RANGE_MULTIMAGLEV 0x2710..0x2903
@@ -89,6 +90,8 @@ item(FEAT_TRAINS, item_coach_NMBS_I11, 11201) {}
 item(FEAT_TRAINS, item_coach_NMBS_I1, 11202) {}
 item(FEAT_TRAINS, item_coach_NMBS_I4, 11203) {}
 item(FEAT_TRAINS, item_coach_NMBS_GCI, 11204) {}
+item(FEAT_TRAINS, item_coach_NMBS_M5, 11205) {}
+item(FEAT_TRAINS, item_coach_NMBS_M6, 11206) {}
 item(FEAT_TRAINS, item_coach_NMVB_Generic, 11210) {}
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)

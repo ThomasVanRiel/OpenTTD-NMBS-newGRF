@@ -19,7 +19,7 @@
 #define VEHICLE_LIFE 30
 
 #define LOADINGSPEED LOADINGSPEEDDEF_COMMUTER
-#define CARGODEF CARGODEF_PASSENGERS_ONLY
+#define CARGODEF refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_MAIL); non_refittable_cargo_classes: 0;
 
 #define SPEED 120
 #define POWER 1300

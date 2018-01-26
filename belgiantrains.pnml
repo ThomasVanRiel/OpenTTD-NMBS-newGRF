@@ -160,6 +160,9 @@
 #include "src/Metro/MIVB_M1_Metro_property.pnml"
 #include "src/Metro/MIVB_M1_Metro_graphics.pnml"
 #include "src/Metro/MIVB_M1_Metro_item.pnml"
+#include "src/Metro/MIVB_BOA_Metro_property.pnml"
+#include "src/Metro/MIVB_BOA_Metro_graphics.pnml"
+#include "src/Metro/MIVB_BOA_Metro_item.pnml"
 
 // Single unit maglev
 #include "src/_CodeSupport/TypeInitialization/init_type_RBMGLV.pnml"
@@ -187,6 +190,12 @@
 #include "src/Coaches/NMBS_I4_property.pnml"
 #include "src/Coaches/NMBS_I4_graphics.pnml"
 #include "src/Coaches/NMBS_I4_item.pnml"
+#include "src/Coaches/NMBS_M5_property.pnml"
+#include "src/Coaches/NMBS_M5_graphics.pnml"
+#include "src/Coaches/NMBS_M5_item.pnml"
+#include "src/Coaches/NMBS_M6_property.pnml"
+#include "src/Coaches/NMBS_M6_graphics.pnml"
+#include "src/Coaches/NMBS_M6_item.pnml"
 
 
 //wagons

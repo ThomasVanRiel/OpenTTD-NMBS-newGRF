@@ -106,6 +106,7 @@ str_name_emu_NMBS_Thalys_PBKA 			:NMBS/SNCB Thalys PBKA (EMU)
 
 #Multiple Unit Metro
 str_name_emu_MIVB_M1_Metro 			    :MIVB/STIB M1 Metro
+str_name_emu_MIVB_BOA_Metro 			:MIVB/STIB BOA Metro
 
 #Maglev railbus
 
@@ -131,7 +132,8 @@ str_text_coach_NMBS_I4_livery_standard	: (Green)
 str_text_coach_NMBS_I4_livery_memling	: (Memling)
 str_text_coach_NMBS_I4_livery_benelux	: (Benelux)
 str_text_coach_NMBS_I4_livery_eurofima	: (Eurofima)
-
+str_name_coach_NMBS_M5					:NMBS/SNCB M5 Coach
+str_name_coach_NMBS_M6					:NMBS/SNCB M6 Coach
 str_name_coach_NMBS_I11					:NMBS/SNCB I11 Coach
 str_text_coach_NMBS_I11_livery_front	: (Front coach)
 str_text_coach_NMBS_I11_livery_middle	: (Middle coach)
