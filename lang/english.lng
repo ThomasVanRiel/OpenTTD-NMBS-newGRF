@@ -74,6 +74,7 @@ str_text_steam_NMVB_Type_12			    :Usage : {ORANGE}Freight or Passenger tram ser
 str_name_diesel_NMBS_HLD_62 			:NMBS/SNCB HLD 62 (Diesel)
 str_text_diesel_NMBS_HLD_62				:{BLACK}History: {GOLD}Designed as replacement for steam engines, four engines became rescue trains for HST
 str_name_diesel_NMBS_HLD_77 			:NMBS/SNCB HLD 77 (Diesel)
+str_name_diesel_NMBS_HLR_84 			:NMBS/SNCB HLR 84 (Diesel)
 
 #Electric
 str_name_electric_NMBS_HLE_27 			:NMBS/SNCB HLE 27 (Electric)
@@ -101,6 +102,8 @@ str_name_emu_NMBS_Type_1935 			:NMBS/SNCB Type 1935 (EMU)
 str_text_emu_NMBS_Type_1935      		:{BLACK}History: {GOLD}These trains were taken into service right before the Brussels International Exposition in 1935. Typically used in a 4 or 6 carriage configuration.
 str_name_emu_NMBS_MS_75 				:NMBS/SNCB MS 75 (EMU)
 str_name_emu_NMBS_Thalys_PBKA 			:NMBS/SNCB Thalys PBKA (EMU)
+str_name_emu_NMBS_V250      			:NMBS/SNCB V250 (EMU)
+str_text_emu_NMBS_V250      			:{BLACK}Info: {GOLD}Known for the suspended Fyra service between Brussels and Amsterdam. Fixed eight coach set.
 
 #Single Unit Metro
 

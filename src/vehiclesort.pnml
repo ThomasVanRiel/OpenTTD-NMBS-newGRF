@@ -27,6 +27,7 @@ item_steam_NMBS_Type_12, /*Year: 1939*/\
 item_steam_NMBS_Type_29, /*Year: 1946*/ 
 
 #define SORTING_DIESEL \
+item_diesel_NMBS_HLR_84, /*Year: 1955*/\
 item_diesel_NMBS_HLD_62, /*Year: 1961*/\
 item_diesel_NMBS_HLD_77, /*Year: 1999*/ 
 
@@ -49,7 +50,8 @@ item_emu_NMBS_Type_1935, /*Year: 1935*/\
 item_emu_NMBS_MS_Classic, /*Year: 1939*/\
 item_emu_NMBS_MS_75, /*Year: 1975*/\
 item_emu_NMBS_MS_96, /*Year: 1996*/\
-item_emu_NMBS_Thalys_PBKA, /*Year: 1998*/
+item_emu_NMBS_Thalys_PBKA, /*Year: 1998*/\
+item_emu_NMBS_V250, /*Year: 2012*/
 
 #define SORTING_SINGLE_METRO 
 

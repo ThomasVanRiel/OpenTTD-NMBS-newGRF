@@ -100,6 +100,9 @@
 #include "src/Diesel/NMBS_HLD_62_property.pnml"
 #include "src/Diesel/NMBS_HLD_62_graphics.pnml"
 #include "src/Diesel/NMBS_HLD_62_item.pnml"
+#include "src/Diesel/NMBS_HLR_84_property.pnml"
+#include "src/Diesel/NMBS_HLR_84_graphics.pnml"
+#include "src/Diesel/NMBS_HLR_84_item.pnml"
 
 //Electric
 #include "src/_CodeSupport/TypeInitialization/init_type_Electric.pnml"
@@ -151,6 +154,9 @@
 #include "src/EMU/NMBS_Thalys_PBKA_property.pnml"
 #include "src/EMU/NMBS_Thalys_PBKA_graphics.pnml"
 #include "src/EMU/NMBS_Thalys_PBKA_item.pnml"
+#include "src/EMU/NMBS_V250_property.pnml"
+#include "src/EMU/NMBS_V250_graphics.pnml"
+#include "src/EMU/NMBS_V250_item.pnml"
 
 //Single Unit Metro
 #include "src/_CodeSupport/TypeInitialization/init_type_RBMTRO.pnml"

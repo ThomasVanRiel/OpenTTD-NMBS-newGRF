@@ -42,6 +42,7 @@ item(FEAT_TRAINS, item_steam_NMVB_Type_12, 4020) {}
 //5064 free
 item(FEAT_TRAINS, item_diesel_NMBS_HLD_77, 5200) {}
 item(FEAT_TRAINS, item_diesel_NMBS_HLD_62, 5202) {}
+item(FEAT_TRAINS, item_diesel_NMBS_HLR_84, 5204) {}
 
 //Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
 #define ID_RANGE_ELECTRIC 0x1770..0x1B57
@@ -69,6 +70,7 @@ item(FEAT_TRAINS, item_emu_NMBS_MS_Classic, 8202) {}
 item(FEAT_TRAINS, item_emu_NMBS_Type_1935, 8203) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_75, 8204) {}
 item(FEAT_TRAINS, item_emu_NMBS_Thalys_PBKA, 8300) {}
+item(FEAT_TRAINS, item_emu_NMBS_V250, 8305) {}
 
 
 //Multi Unit Metro, available ID range: 9000-9999 (hex 0x2328..0x270F)

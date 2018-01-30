@@ -1,0 +1,96 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+//	============================================================================
+//	VEHICLE SPRITES
+//	============================================================================
+
+//Front
+spriteset(spriteset_emu_NMBS_V250_front, "gfx/EMU/NMBS_V250.png") {
+	template_2cc_engines_general(1, 1)
+}
+
+//Back
+spriteset(spriteset_emu_NMBS_V250_back, "gfx/EMU/NMBS_V250.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Middle regular 1
+spriteset(spriteset_emu_NMBS_V250_middle_reg_1, "gfx/EMU/NMBS_V250.png") {
+	template_2cc_engines_general(1, 64)
+}
+
+//Middle regular 2
+spriteset(spriteset_emu_NMBS_V250_middle_reg_2, "gfx/EMU/NMBS_V250.png") {
+	template_2cc_engines_general(1, 96)
+}
+
+//Middle FY
+spriteset(spriteset_emu_NMBS_V250_middle_fy, "gfx/EMU/NMBS_V250.png") {
+	template_2cc_engines_general(1, 160)
+}
+
+//Middle RA
+spriteset(spriteset_emu_NMBS_V250_middle_ra, "gfx/EMU/NMBS_V250.png") {
+	template_2cc_engines_general(1, 128)
+}
+//Middle regular 1 reversed
+spriteset(spriteset_emu_NMBS_V250_middle_reg_1_rev, "gfx/EMU/NMBS_V250.png") {
+	template_2cc_engines_general(1, 192)
+}
+
+//Middle regular 2 reversed
+spriteset(spriteset_emu_NMBS_V250_middle_reg_2_rev, "gfx/EMU/NMBS_V250.png") {
+	template_2cc_engines_general(1, 224)
+}
+
+//Visual effect, for EMU this is done on the part with the pantograph
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_V250_visual_effect_and_powered, var[0xC8]) {
+	0xFE: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+	0xFF: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+	visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_V250_articulated, extra_callback_info1) {
+	1 .. 7: return item_emu_NMBS_V250;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// Choose between different parts
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_V250_graphics, position_in_consist % 9) {
+    0: spriteset_emu_NMBS_V250_front;
+	1: spriteset_emu_NMBS_V250_middle_reg_1;
+	2: spriteset_emu_NMBS_V250_middle_reg_2;
+	3: spriteset_emu_NMBS_V250_middle_fy;
+	4: spriteset_emu_NMBS_V250_middle_ra;
+	5: spriteset_emu_NMBS_V250_middle_reg_2_rev;
+	6: spriteset_emu_NMBS_V250_middle_reg_1_rev;
+    spriteset_emu_NMBS_V250_back;
+}
+
+//	============================================================================
+//	PURCHASE SPRITE
+//	============================================================================
+
+spriteset(spriteset_emu_NMBS_V250_purchase, "gfx/EMU/NMBS_V250.png") {
+	template_purchase(1, 320)
+}
+	
+/*
+* Cargo capacity
+*/
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+//WAGONCAPACITYSWITCH(VEHIDCODE)
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH
