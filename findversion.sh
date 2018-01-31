@@ -94,7 +94,8 @@ if [ -d "$ROOT_DIR/.git" ]; then
 	BRANCH="`git branch | cut -c 3-`"
 	TAG="`git tag`"
 	REPO_DATE="`git log -1 --pretty=format:%ct`"
-	VERSION=`python -c "from datetime import date; print (date.fromtimestamp($REPO_DATE)-date(2018,1,8)).days"`
+	VERSION="0"
+	#VERSION=`python -c "from datetime import date; print (date.fromtimestamp($REPO_DATE)-date(2018,1,8)).days"`
 	DISPLAY_VERSION="v${VERSION}"
 	if [ -n "$TAG" ]; then
 		BRANCH=""

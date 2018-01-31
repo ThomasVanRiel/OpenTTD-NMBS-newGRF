@@ -101,8 +101,9 @@ str_text_emu_NMBS_MS_Classic_livery_automatic	: (Automatic livery updates)
 str_name_emu_NMBS_Type_1935 			:NMBS/SNCB Type 1935 (EMU)
 str_text_emu_NMBS_Type_1935      		:{BLACK}History: {GOLD}These trains were taken into service right before the Brussels International Exposition in 1935. Typically used in a 4 or 6 carriage configuration.
 str_name_emu_NMBS_MS_75 				:NMBS/SNCB MS 75 (EMU)
+str_name_emu_NMBS_NS_Mat57 				:NS/NMBS Mat'57 (EMU)
 str_name_emu_NMBS_Thalys_PBKA 			:NMBS/SNCB Thalys PBKA (EMU)
-str_name_emu_NMBS_V250      			:NMBS/SNCB V250 (EMU)
+str_name_emu_NMBS_V250      			:NS/NMBS V250 (EMU)
 str_text_emu_NMBS_V250      			:{BLACK}Info: {GOLD}Known for the suspended Fyra service between Brussels and Amsterdam. Fixed eight coach set.
 
 #Single Unit Metro
@@ -135,8 +136,10 @@ str_text_coach_NMBS_I4_livery_standard	: (Green)
 str_text_coach_NMBS_I4_livery_memling	: (Memling)
 str_text_coach_NMBS_I4_livery_benelux	: (Benelux)
 str_text_coach_NMBS_I4_livery_eurofima	: (Eurofima)
+str_name_coach_NMBS_M4					:NMBS/SNCB M4 Coach
 str_name_coach_NMBS_M5					:NMBS/SNCB M5 Coach
 str_name_coach_NMBS_M6					:NMBS/SNCB M6 Coach
+str_name_coach_NMBS_M7					:NMBS/SNCB M7 Coach
 str_name_coach_NMBS_I11					:NMBS/SNCB I11 Coach
 str_text_coach_NMBS_I11_livery_front	: (Front coach)
 str_text_coach_NMBS_I11_livery_middle	: (Middle coach)

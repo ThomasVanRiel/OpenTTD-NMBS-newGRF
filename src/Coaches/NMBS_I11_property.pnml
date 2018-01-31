@@ -30,7 +30,7 @@
 #define LENGTH 8
 #define ACTUAL_LENGTH 8
 
-#define HEAD_CAPACITY 70
+#define HEAD_CAPACITY 80
 
 #define DUAL_HEADED 0
 #define PASSENGER 1

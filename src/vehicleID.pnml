@@ -69,6 +69,7 @@ item(FEAT_TRAINS, item_emu_NMBS_MS_96, 8200) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_Classic, 8202) {}
 item(FEAT_TRAINS, item_emu_NMBS_Type_1935, 8203) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_75, 8204) {}
+item(FEAT_TRAINS, item_emu_NMBS_NS_Mat57, 8210) {}
 item(FEAT_TRAINS, item_emu_NMBS_Thalys_PBKA, 8300) {}
 item(FEAT_TRAINS, item_emu_NMBS_V250, 8305) {}
 
@@ -94,6 +95,8 @@ item(FEAT_TRAINS, item_coach_NMBS_I4, 11203) {}
 item(FEAT_TRAINS, item_coach_NMBS_GCI, 11204) {}
 item(FEAT_TRAINS, item_coach_NMBS_M5, 11205) {}
 item(FEAT_TRAINS, item_coach_NMBS_M6, 11206) {}
+item(FEAT_TRAINS, item_coach_NMBS_M7, 11207) {}
+item(FEAT_TRAINS, item_coach_NMBS_M4, 11208) {}
 item(FEAT_TRAINS, item_coach_NMVB_Generic, 11210) {}
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)

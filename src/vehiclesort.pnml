@@ -48,6 +48,7 @@ item_dmu_NMBS_MS_41, /*Year: 2000*/
 #define SORTING_EMU \
 item_emu_NMBS_Type_1935, /*Year: 1935*/\
 item_emu_NMBS_MS_Classic, /*Year: 1939*/\
+item_emu_NMBS_NS_Mat57, /*Year: 1957*/\
 item_emu_NMBS_MS_75, /*Year: 1975*/\
 item_emu_NMBS_MS_96, /*Year: 1996*/\
 item_emu_NMBS_Thalys_PBKA, /*Year: 1998*/\
@@ -70,8 +71,10 @@ item_coach_NMBS_I1, /*Year: 1931*/\
 item_coach_NMBS_I4, /*Year: 1966*/\
 item_coach_NMBS_I10, /*Year: 1987*/\
 item_coach_NMBS_I11, /*Year: 1995*/\
+item_coach_NMBS_M4, /*Year: 1979*/\
 item_coach_NMBS_M5, /*Year: 1966*/\
-item_coach_NMBS_M6, /*Year: 2000*/
+item_coach_NMBS_M6, /*Year: 2000*/\
+item_coach_NMBS_M7, /*Year: 2018*/
 
 #define SORTING_WAGONS \
 item_wagon_NMVB_Generic_Freight,\
