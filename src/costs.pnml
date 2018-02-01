@@ -20,7 +20,6 @@
 
 // Use Newton's method to approximate the sqare root
 #define SQRTESTIMATE(VALUE,GUESS) (GUESS-((GUESS*GUESS)-VALUE )/(0.1+2*GUESS))
-
 #define SQRT(VALUE) SQRTESTIMATE(VALUE,SQRTESTIMATE(VALUE,SQRTESTIMATE(VALUE,VALUE/40)))
 
 // default values
@@ -102,7 +101,7 @@
 #define RUNNINGCOSTCOACHVALUE RUNNINGCOSTNONENGINEVALUE(0.5, 0.01, 1)
 
 
-// MU wagonds
+// MU wagons
 #define RUNNINGCOSTMU running_cost_factor: 0;
 #define PURCHASECOSTMUPOWERED cost_factor: 200;
 #define PURCHASECOSTMUUNPOWERED cost_factor: 100;

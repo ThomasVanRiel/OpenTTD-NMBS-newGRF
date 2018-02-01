@@ -21,3 +21,7 @@
 
 //Introduction date
 #define INTRODUCTIONDATEPROPERTY introduction_date: date(INTRODUCTION_YEAR,1,1);
+
+// Vehicle expiration
+#define VEHICLE_EXPIRE_DEFAULT 40
+#define VEHICLE_EXPIRE_LONG 75

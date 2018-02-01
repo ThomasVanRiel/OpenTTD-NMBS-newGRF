@@ -151,6 +151,9 @@
 #include "src/EMU/NMBS_MS_75_property.pnml"
 #include "src/EMU/NMBS_MS_75_graphics.pnml"
 #include "src/EMU/NMBS_MS_75_item.pnml"
+#include "src/EMU/NMBS_NS_Mat57_property.pnml"
+#include "src/EMU/NMBS_NS_Mat57_graphics.pnml"
+#include "src/EMU/NMBS_NS_Mat57_item.pnml"
 #include "src/EMU/NMBS_Thalys_PBKA_property.pnml"
 #include "src/EMU/NMBS_Thalys_PBKA_graphics.pnml"
 #include "src/EMU/NMBS_Thalys_PBKA_item.pnml"
@@ -196,12 +199,18 @@
 #include "src/Coaches/NMBS_I4_property.pnml"
 #include "src/Coaches/NMBS_I4_graphics.pnml"
 #include "src/Coaches/NMBS_I4_item.pnml"
+#include "src/Coaches/NMBS_M4_property.pnml"
+#include "src/Coaches/NMBS_M4_graphics.pnml"
+#include "src/Coaches/NMBS_M4_item.pnml"
 #include "src/Coaches/NMBS_M5_property.pnml"
 #include "src/Coaches/NMBS_M5_graphics.pnml"
 #include "src/Coaches/NMBS_M5_item.pnml"
 #include "src/Coaches/NMBS_M6_property.pnml"
 #include "src/Coaches/NMBS_M6_graphics.pnml"
 #include "src/Coaches/NMBS_M6_item.pnml"
+#include "src/Coaches/NMBS_M7_property.pnml"
+#include "src/Coaches/NMBS_M7_graphics.pnml"
+#include "src/Coaches/NMBS_M7_item.pnml"
 
 
 //wagons
