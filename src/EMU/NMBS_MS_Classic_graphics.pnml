@@ -133,6 +133,13 @@ switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_reversed, var[0xC8]) {
     switch_emu_NMBS_MS_Classic_front_livery;
 }
 
+//Dualheaded engines auto
+switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_reversed_auto, var[0xC8]) {
+	0xFE: switch_emu_NMBS_MS_Classic_back_livery_auto;
+    0xFF: switch_emu_NMBS_MS_Classic_back_livery_auto; 
+    switch_emu_NMBS_MS_Classic_front_livery_auto;
+}
+
 
 //Visual effect, for EMU this is done on the part with the pantograph
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_visual_effect_and_powered, var[0xC8]) {

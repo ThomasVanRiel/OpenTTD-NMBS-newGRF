@@ -70,6 +70,7 @@ item(FEAT_TRAINS, item_emu_NMBS_MS_96, 8200) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_Classic, 8202) {}
 item(FEAT_TRAINS, item_emu_NMBS_Type_1935, 8203) {}
 item(FEAT_TRAINS, item_emu_NMBS_MS_75, 8204) {}
+item(FEAT_TRAINS, item_emu_NMBS_MS_80, 8205) {}
 item(FEAT_TRAINS, item_emu_NMBS_NS_Mat57, 8210) {}
 item(FEAT_TRAINS, item_emu_NMBS_Thalys_PBKA, 8300) {}
 item(FEAT_TRAINS, item_emu_NMBS_V250, 8305) {}

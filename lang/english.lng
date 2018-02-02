@@ -51,6 +51,10 @@ str_param_disable_default_veh_desc      :Make this newgrf enable default vehicle
 str_param_disable_default_en            :Enabled
 str_param_disable_default_dis           :Disabled
 
+#Disable Powereed MU Wagon
+str_param_disable_powered_mu_wagon       :Disable the powered multiple-unit wagon
+str_param_disable_powered_mu_wagon_desc  :This creates a better balance between MUs and engines with coaches if switched on.
+
 #VEHICLE NAMES
 #Railbus-steam
 
@@ -108,6 +112,10 @@ str_name_emu_NMBS_NS_Mat57 				:NS/NMBS Mat'57 (EMU)
 str_name_emu_NMBS_Thalys_PBKA 			:NMBS/SNCB Thalys PBKA (EMU)
 str_name_emu_NMBS_V250      			:NS/NMBS V250 (EMU)
 str_text_emu_NMBS_V250      			:{BLACK}Info: {GOLD}Known for the suspended Fyra service between Brussels and Amsterdam. Fixed eight coach set.
+str_name_emu_NMBS_MS_80 				:NMBS/SNCB MS 80 (EMU)
+str_text_emu_NMBS_MS_80_livery_bordeaux 	: (Bordeaux livery, 1981 - 1985)
+str_text_emu_NMBS_MS_80_livery_memling 		: (Memling livery, 1985 - 2009)
+str_text_emu_NMBS_MS_80_livery_newlook		: (New Look livery, 2009 - ...)
 
 #Single Unit Metro
 

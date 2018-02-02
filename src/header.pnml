@@ -81,6 +81,15 @@ grf {
         	bit:  	0;
 		}
 	}
+	param 14 {
+		param_disable_powered_mu_wagon {
+			type:	bool;
+			name:	string(str_param_disable_powered_mu_wagon);
+			desc:	string(str_param_disable_powered_mu_wagon_desc);
+			def_value: 0;
+        	bit:  	0;
+		}
+	}
 }
 
 //disable original rail vehicles
