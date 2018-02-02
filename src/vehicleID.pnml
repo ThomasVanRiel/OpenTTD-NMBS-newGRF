@@ -42,6 +42,7 @@ item(FEAT_TRAINS, item_steam_NMVB_Type_12, 4020) {}
 //5064 free
 item(FEAT_TRAINS, item_diesel_NMBS_HLD_77, 5200) {}
 item(FEAT_TRAINS, item_diesel_NMBS_HLD_62, 5202) {}
+item(FEAT_TRAINS, item_diesel_NMBS_HLD_59, 5203) {}
 item(FEAT_TRAINS, item_diesel_NMBS_HLR_84, 5204) {}
 
 //Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)

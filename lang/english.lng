@@ -58,6 +58,8 @@ str_param_disable_default_dis           :Disabled
 str_name_diesel_NMBS_CLASS_42_Railbus 	:NMBS/SNCB Class 42 Railbus (Diesel)
 str_text_diesel_NMBS_CLASS_42_Railbus   :Usage : {ORANGE}Passenger {}{BLACK}Designed in 1954 for passenger railbus duties
 str_name_diesel_NMBS_SERIES_622_RAILBUS :NMBS/SNCB Series 622 Railbus (Diesel)
+str_name_diesel_NMBS_MW43_Railbus 	    :NMBS/SNCB MW 43 Railbus (Diesel)
+str_name_diesel_NMBS_MW44_Railbus 	    :NMBS/SNCB MW 44 Railbus (Diesel)
 
 #Railbus-electric
 
@@ -75,6 +77,7 @@ str_name_diesel_NMBS_HLD_62 			:NMBS/SNCB HLD 62 (Diesel)
 str_text_diesel_NMBS_HLD_62				:{BLACK}History: {GOLD}Designed as replacement for steam engines, four engines became rescue trains for HST
 str_name_diesel_NMBS_HLD_77 			:NMBS/SNCB HLD 77 (Diesel)
 str_name_diesel_NMBS_HLR_84 			:NMBS/SNCB HLR 84 (Diesel)
+str_name_diesel_NMBS_HLD_59 			:NMBS/SNCB HLD 59 (Diesel)
 
 #Electric
 str_name_electric_NMBS_HLE_27 			:NMBS/SNCB HLE 27 (Electric)

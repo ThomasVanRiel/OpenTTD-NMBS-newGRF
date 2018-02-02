@@ -16,7 +16,9 @@
 
 #define SORTING_RBD \
 item_diesel_NMBS_SERIES_622_RAILBUS,  /*Year: 1939*/\
-item_diesel_NMBS_CLASS_42_RAILBUS,  /*Year: 1954*/
+item_diesel_NMBS_CLASS_42_RAILBUS,  /*Year: 1954*/\
+item_diesel_NMBS_MW43_Railbus,  /*Year: 1954*/\
+item_diesel_NMBS_MW44_Railbus,  /*Year: 1954*/
 
 #define SORTING_RBE 
 
@@ -27,6 +29,7 @@ item_steam_NMBS_Type_12, /*Year: 1939*/\
 item_steam_NMBS_Type_29, /*Year: 1946*/ 
 
 #define SORTING_DIESEL \
+item_diesel_NMBS_HLD_59, /*Year: 1954*/\
 item_diesel_NMBS_HLR_84, /*Year: 1955*/\
 item_diesel_NMBS_HLD_62, /*Year: 1961*/\
 item_diesel_NMBS_HLD_77, /*Year: 1999*/ 
