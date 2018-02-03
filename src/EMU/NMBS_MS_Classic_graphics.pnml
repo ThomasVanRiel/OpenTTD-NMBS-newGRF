@@ -86,10 +86,10 @@ switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_front_livery_auto, current_
 	spriteset_emu_NMBS_MS_Classic_memling_front;
 }
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_front_livery, cargo_subtype) {
-	0: spriteset_emu_NMBS_MS_Classic_green_front;
-	1: spriteset_emu_NMBS_MS_Classic_red_front;
-	2: spriteset_emu_NMBS_MS_Classic_memling_front;
-	switch_emu_NMBS_MS_Classic_front_livery_auto;
+	0: switch_emu_NMBS_MS_Classic_front_livery_auto;
+	1: spriteset_emu_NMBS_MS_Classic_green_front;
+	2: spriteset_emu_NMBS_MS_Classic_red_front;
+	spriteset_emu_NMBS_MS_Classic_memling_front;
 }
 
 //Back
@@ -99,10 +99,10 @@ switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_back_livery_auto, current_y
 	spriteset_emu_NMBS_MS_Classic_memling_back;
 }
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_back_livery, cargo_subtype) {
-	0: spriteset_emu_NMBS_MS_Classic_green_back;
-	1: spriteset_emu_NMBS_MS_Classic_red_back;
-	2: spriteset_emu_NMBS_MS_Classic_memling_back;
-	switch_emu_NMBS_MS_Classic_back_livery_auto;
+	0: switch_emu_NMBS_MS_Classic_back_livery_auto;
+	1: spriteset_emu_NMBS_MS_Classic_green_back;
+	2: spriteset_emu_NMBS_MS_Classic_red_back;
+	spriteset_emu_NMBS_MS_Classic_memling_back;
 }
 
 //Middle
@@ -112,12 +112,11 @@ switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_middle_livery_auto, current
 	spriteset_emu_NMBS_MS_Classic_memling_middle;
 }
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_middle_livery, cargo_subtype) {
-	0: spriteset_emu_NMBS_MS_Classic_green_middle;
-	1: spriteset_emu_NMBS_MS_Classic_red_middle;
-	2: spriteset_emu_NMBS_MS_Classic_memling_middle;
-	switch_emu_NMBS_MS_Classic_middle_livery_auto;
+	0: switch_emu_NMBS_MS_Classic_middle_livery_auto;
+	1: spriteset_emu_NMBS_MS_Classic_green_middle;
+	2: spriteset_emu_NMBS_MS_Classic_red_middle;
+	spriteset_emu_NMBS_MS_Classic_memling_middle;
 }
-
 
 //Purchase
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_purchase, current_year) {
@@ -133,21 +132,13 @@ switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_reversed, var[0xC8]) {
     switch_emu_NMBS_MS_Classic_front_livery;
 }
 
-//Dualheaded engines auto
-switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_reversed_auto, var[0xC8]) {
-	0xFE: switch_emu_NMBS_MS_Classic_back_livery_auto;
-    0xFF: switch_emu_NMBS_MS_Classic_back_livery_auto; 
-    switch_emu_NMBS_MS_Classic_front_livery_auto;
-}
-
-
 //Visual effect, for EMU this is done on the part with the pantograph
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_visual_effect_and_powered, var[0xC8]) {
 	0xFE: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
 	0xFF: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
 	visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 }
-	
+
 /*
 * Cargo capacity
 */
@@ -160,10 +151,10 @@ WAGONCAPACITYSWITCH(VEHIDCODE)
 
 //cargo subtype
 switch(FEAT_TRAINS, SELF, switch_emu_NMBS_MS_Classic_cargo_subtype_text, cargo_subtype) {
-    0: return string(str_text_emu_NMBS_MS_Classic_livery_green);
-    1: return string(str_text_emu_NMBS_MS_Classic_livery_red);
-    2: return string(str_text_emu_NMBS_MS_Classic_livery_memling);
-    3: return string(str_text_emu_NMBS_MS_Classic_livery_automatic);
+    0: return string(str_text_emu_NMBS_MS_Classic_livery_automatic);
+    1: return string(str_text_emu_NMBS_MS_Classic_livery_green);
+    2: return string(str_text_emu_NMBS_MS_Classic_livery_red);
+    3: return string(str_text_emu_NMBS_MS_Classic_livery_memling);
     return CB_RESULT_NO_TEXT;
 }
 

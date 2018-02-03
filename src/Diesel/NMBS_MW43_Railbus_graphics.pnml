@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_NMBS_MW43_purchase, "gfx/Diesel/NMBS_MW_4X.PNG") {
+spriteset(spriteset_diesel_NMBS_MW43_purchase, "gfx/Diesel/NMBS_MW_4X.png") {
 	template_purchase(1, 128)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_diesel_NMBS_MW43_purchase, "gfx/Diesel/NMBS_MW_4X.PNG") {
 */
 
 //Engine
-spriteset(spriteset_diesel_NMBS_MW43, "gfx/Diesel/NMBS_MW_4X.PNG") {
+spriteset(spriteset_diesel_NMBS_MW43, "gfx/Diesel/NMBS_MW_4X.png") {
 	template_2cc_engines_general(1, 1)
 }
 

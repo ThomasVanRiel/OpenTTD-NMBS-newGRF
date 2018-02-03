@@ -51,7 +51,7 @@ item(FEAT_TRAINS, ITEM ) {
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
-		default: switch_emu_NMBS_MS_Classic_reversed_auto;
+		default: switch_emu_NMBS_MS_Classic_reversed;
 	}
 	livery_override (item_mu_wagon_unpowered ) {
 		cargo_subtype_text: switch_emu_NMBS_MS_Classic_cargo_subtype_text;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, ITEM ) {
 		weight: WEIGHTMUWAGONUNPOWERED
 		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		length: WAGON_LENGTH;
-		default: switch_emu_NMBS_MS_Classic_middle_livery_auto;
+		default: switch_emu_NMBS_MS_Classic_middle_livery;
 	}
 	livery_override (item_mu_wagon_powered ) {
 		cargo_subtype_text: switch_emu_NMBS_MS_Classic_cargo_subtype_text;
@@ -71,6 +71,6 @@ item(FEAT_TRAINS, ITEM ) {
 		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		tractive_effort_coefficient: TEMUWAGONPOWERED
 		length: WAGON_LENGTH;
-		default: switch_emu_NMBS_MS_Classic_middle_livery_auto;
+		default: switch_emu_NMBS_MS_Classic_middle_livery;
 	}
 }

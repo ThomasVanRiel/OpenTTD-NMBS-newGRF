@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_DIESEL_RAILBUS_SNCB_CLASS_42_purchase, "gfx/Diesel/NMBS_CLASS_42_RAILBUS.PNG") {
+spriteset(spriteset_DIESEL_RAILBUS_SNCB_CLASS_42_purchase, "gfx/Diesel/NMBS_CLASS_42_RAILBUS.png") {
 	template_purchase(1, 32)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_DIESEL_RAILBUS_SNCB_CLASS_42_purchase, "gfx/Diesel/NMBS_CLAS
 */
 
 //Engine
-spriteset(spriteset_DIESEL_RAILBUS_SNCB_CLASS_42, "gfx/Diesel/NMBS_CLASS_42_RAILBUS.PNG") {
+spriteset(spriteset_DIESEL_RAILBUS_SNCB_CLASS_42, "gfx/Diesel/NMBS_CLASS_42_RAILBUS.png") {
 	template_2cc_engines_general(1, 1)
 }
 
