@@ -47,7 +47,7 @@
 */
 
 //Unit wagons
-#include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
+#include "src/_CodeSupport/TypeInitialization/init_type_EMU.pnml"
 #include "src/Special/MU_Wagon_Unpowered_property.pnml"
 #include "src/Special/MU_Wagon_Unpowered_graphics.pnml"
 #include "src/Special/MU_Wagon_Unpowered_item.pnml"
