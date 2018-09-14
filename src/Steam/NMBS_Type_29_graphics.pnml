@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_STEAM_1D_SNCB_TYPE_29_purchase, "gfx/Steam/NMBS_Type_29.PNG") {
+spriteset(spriteset_STEAM_1D_SNCB_TYPE_29_purchase, "gfx/Steam/NMBS_Type_29.png") {
 	template_purchase(1, 96)
 }
 
@@ -19,16 +19,16 @@ spriteset(spriteset_STEAM_1D_SNCB_TYPE_29_purchase, "gfx/Steam/NMBS_Type_29.PNG"
 */
 
 //Engine
-spriteset(spriteset_STEAM_1D_SNCB_TYPE_29_engine1, "gfx/Steam/NMBS_Type_29.PNG") {
+spriteset(spriteset_STEAM_1D_SNCB_TYPE_29_engine1, "gfx/Steam/NMBS_Type_29.png") {
 	template_2cc_engines_general(1, 1)
 }
 
-spriteset(spriteset_STEAM_1D_SNCB_TYPE_29_engine2, "gfx/Steam/NMBS_Type_29.PNG") {
+spriteset(spriteset_STEAM_1D_SNCB_TYPE_29_engine2, "gfx/Steam/NMBS_Type_29.png") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Tender
-spriteset(spriteset_STEAM_1D_SNCB_TYPE_29_tender, "gfx/Steam/NMBS_Type_29.PNG") {
+spriteset(spriteset_STEAM_1D_SNCB_TYPE_29_tender, "gfx/Steam/NMBS_Type_29.png") {
 	template_2cc_engines_general(1, 64)
 }
 

@@ -43,6 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_emu_NMBS_MS_75_red_purchase;
+		cargo_subtype_text: switch_emu_NMBS_MS_75_cargo_subtype_text;
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		visual_effect_and_powered: switch_emu_NMBS_MS_75_visual_effect_and_powered;
 		can_attach_wagon: switch_can_attach_vehicle;
@@ -58,7 +59,7 @@ item(FEAT_TRAINS, ITEM ) {
 		weight: WEIGHTMUWAGONUNPOWERED
 		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		length: WAGON_LENGTH;
-		default: spriteset_emu_NMBS_MS_75_red_middle;
+		default: switch_emu_NMBS_MS_75_middle_livery;
 	}
 	livery_override (item_mu_wagon_powered ) {
 		LOADINGSPEEDPROPERTY
@@ -68,6 +69,6 @@ item(FEAT_TRAINS, ITEM ) {
 		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		tractive_effort_coefficient: TEMUWAGONPOWERED
 		length: WAGON_LENGTH;
-		default: spriteset_emu_NMBS_MS_75_red_middle;
+		default: switch_emu_NMBS_MS_75_middle_livery;
 	}
 }

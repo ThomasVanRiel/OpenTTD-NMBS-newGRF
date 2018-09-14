@@ -108,6 +108,8 @@ str_text_emu_NMBS_MS_Classic_livery_automatic	: (Automatic livery updates)
 str_name_emu_NMBS_Type_1935 			:NMBS/SNCB Type 1935 (EMU)
 str_text_emu_NMBS_Type_1935      		:{BLACK}History: {GOLD}These trains were taken into service right before the Brussels International Exposition in 1935. Typically used in a 4 or 6 carriage configuration.
 str_name_emu_NMBS_MS_75 				:NMBS/SNCB MS 75 (EMU)
+str_text_emu_NMBS_MS_75_livery_red 		: (Red livery, 1975 - ...)
+str_text_emu_NMBS_MS_75_livery_memling	: (Memling livery, 2015 - ...)
 str_name_emu_NMBS_NS_Mat57 				:NS/NMBS Mat'57 (EMU)
 str_name_emu_NMBS_Thalys_PBKA 			:NMBS/SNCB Thalys PBKA (EMU)
 str_name_emu_NMBS_V250      			:NS/NMBS V250 (EMU)

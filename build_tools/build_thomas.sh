@@ -1,0 +1,1 @@
+make && cp belgiantrains.tar ~/Documents/OpenTTD/newgrf/
