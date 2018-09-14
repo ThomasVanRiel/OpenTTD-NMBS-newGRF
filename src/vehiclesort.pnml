@@ -55,6 +55,7 @@ item_emu_NMBS_NS_Mat57, /*Year: 1957*/\
 item_emu_NMBS_MS_75, /*Year: 1975*/\
 item_emu_NMBS_MS_80, /*Year: 1981*/\
 item_emu_NMBS_MS_96, /*Year: 1996*/\
+item_emu_NMBS_MS_08, /*Year: 2011*/\
 item_emu_NMBS_Thalys_PBKA, /*Year: 1998*/\
 item_emu_NMBS_V250, /*Year: 2012*/
 
