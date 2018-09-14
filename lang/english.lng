@@ -99,6 +99,7 @@ str_name_dmu_NMBS_MW_40 				:NMBS/SNCB MW 40 (DMU)
 
 #EMU
 str_name_emu_NMBS_MS_96 				:NMBS/SNCB MS 96 (EMU)
+str_name_emu_NMBS_MS_08 				:NMBS/SNCB MS 08 (EMU)
 str_name_emu_NMBS_MS_Classic 			:NMBS/SNCB MS Classic (EMU)
 str_text_emu_NMBS_MS_Classic 			:{BLACK}Classes: {GOLD}MS39, MS46, MS50, MS51, MS53, MS54, MS55, MS56, MS62, MS66, MS70, MS73, MSCR
 str_text_emu_NMBS_MS_Classic_livery_green 		: (Green livery, 1939 - 1985)

@@ -14,8 +14,8 @@ item(FEAT_TRAINS, ITEM ) {
 		vehicle_life: VEHICLE_LIFE; 
 		retire_early: RETIRE_EARLY;
 		LOADINGSPEEDPROPERTY
-		PURCHASECOSTMUUNPOWERED
-		RUNNINGCOSTMU
+		PURCHASECOSTPROPERTY
+		RUNNINGCOSTPROPERTY
 		speed: SPEED km/h;
 		power: POWER hp;
 		cargo_capacity: HEAD_CAPACITY;
@@ -33,7 +33,7 @@ item(FEAT_TRAINS, ITEM ) {
 		running_cost_base: RUNNING_COST_BASE;
 		engine_class: ENGINE_CLASS;
 		visual_effect_and_powered: VISUAL_FLAG;
-		climates_available: ALL_CLIMATES;
+		climates_available: 			ALL_CLIMATES;
 		
 		sprite_id: SPRITE_ID;
 		dual_headed: DUAL_HEADED;
@@ -42,8 +42,31 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_mu_wagon_unpowered_purchase;
-		PURCHASETEXTMUWAGONPASSENGERUNPOWERED
-		default: spriteset_mu_wagon_unpowered;
+		purchase: spriteset_emu_NMBS_MS_08_purchase;
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
+		visual_effect_and_powered: switch_emu_NMBS_MS_08_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
+		//Add calls to defined switches below
+		RUNNINGCOSTENGINESWITCHCALL
+		PURCHASETEXTSWITCHCALL
+		default: switch_emu_NMBS_MS_08_reversed;
+	}
+	livery_override (item_mu_wagon_unpowered ) {
+		LOADINGSPEEDPROPERTY
+		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
+		weight: WEIGHTMUWAGONUNPOWERED
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
+		length: WAGON_LENGTH;
+		default: switch_emu_NMBS_MS_08_cargo_selection;
+	}
+	livery_override (item_mu_wagon_powered ) {
+		LOADINGSPEEDPROPERTY
+		RUNNINGCOSTMUWAGONPOWEREDSWITCHCALL
+		power: POWERMUWAGONPOWERED
+		weight: WEIGHTMUWAGONPOWERED
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
+		tractive_effort_coefficient: TEMUWAGONPOWERED
+		length: WAGON_LENGTH;
+		default: switch_emu_NMBS_MS_08_cargo_selection;
 	}
 }
